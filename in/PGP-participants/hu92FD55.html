@@ -1,0 +1,4516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Personal Genome Project: hu92FD55</title>
+    <link href="/stylesheets/../bootstrap/css/bootstrap.min.css?1418011070" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/bootstrap_datatables.css?1418011077" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/redmond/jquery-ui-1.8.11.custom.css?1418011077" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/ui.slider.extras.css?1418011077" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/dataTables/css/demo_table_jui.css?1418011077" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/tapestry_default.css?1418011077" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/plate_layout.css?1418011077" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css?1418011077" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lte IE 7]><link href="/stylesheets/tapestry_default-ie.css?1418011077" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <script src="/javascripts/jquery-1.7.2.min.js?1418011077" type="text/javascript"></script>
+<script src="/javascripts/jquery-ui-1.8.11.custom.min.js?1418011077" type="text/javascript"></script>
+<script src="/javascripts/jquery.dataTables.min.js?1418011077" type="text/javascript"></script>
+<script src="/javascripts/jquery-custom-extensions.js?1418011077" type="text/javascript"></script>
+<script src="/javascripts/rails.js?1418011077" type="text/javascript"></script>
+<script src="/javascripts/application.js?1418011077" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sSortAsc": "header headerSortDown",
+        "sSortDesc": "header headerSortUp",
+        "sSortable": "header"
+    } );
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sWrapper": "dataTables_wrapper form-inline"
+    } );
+    jQuery(document).ready(function() {
+      jQuery('button,input[type=submit]').addClass('btn');
+      jQuery('.nav .dropdown li a[title]').tooltip({animation:false,placement:'right',container:'body'});
+    });
+
+//]]>
+</script>  <script src="/javascripts/datatables_bootstrap_paging.js?1418011077" type="text/javascript"></script>
+  <script src="/javascripts/bootstrap_mods.js?1418011077" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    
+
+//]]>
+</script>  
+  <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="O98Ds6JQxSFxDMlZsgyO+lFhAcSx94dQNtsYbv6yrHE="/>
+</head>
+<body>
+
+  
+
+  <div id="body">
+
+    <h1 class="verbose"><a href="https://my.pgp-hms.org/"><span>Personal Genome Project</span></a></h1>
+
+    
+      <a href="https://my.pgp-hms.org/login" class="btn btn-large btn-warning pull-right" style="margin-top: -78px; margin-right: 12px; text-decoration: none; color: #fff">Log in &nbsp;<i class="icon icon-white icon-play"></i></a>
+
+<div class="container">
+  <div class="navbar"><div class="navbar-inner">
+    <ul class="nav">
+
+
+
+
+
+        <li class="dropdown">
+          <a href="/public_genetic_data" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-public-data" role="button">Public data <b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-public-data">
+            <li><a href="/users" title="3943 participant profiles">Participants</a></li>
+              <li><a href="/google_surveys" title="13 surveys taken by 2551 participants">Participant surveys</a></li>
+              <li><a href="/specimens" title="4149 blood, saliva, or other tissue samples">Tissue samples</a></li>
+            <li><a href="/public_genetic_data" title="601 whole genome sequences and 1088 other genetic datasets">Whole genome sequences and other data</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="/public_genetic_data/statistics">Genetic data publication statistics</a></li>
+          </ul>
+        </li>
+
+      <li class="dropdown">
+        <a href="http://personalgenomes.org" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-about-us" role="button">About <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-about-us">
+          <li><a href="http://personalgenomes.org"><u>PersonalGenomes.org Website</u></a></li>
+          <li><a href="http://blog.personalgenomes.org"><u>PGP Blog</u></a></li>
+          <li><a href="https://twitter.com/@PGorg"><u>@PGorg on Twitter</u></a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+    <ul class="nav pull-right">
+    </ul>
+  </div></div>
+</div>
+
+
+    <div class="clear"><!-- --></div>
+
+    
+    <div class="main">
+      <div id="flash">
+</div>
+      
+<h2>Public Profile -- hu92FD55</h2>
+
+<div align="right">Public profile url: <a href="/profile/hu92FD55">https://my.pgp-hms.org/profile/hu92FD55</a></div>
+
+
+
+  <h3>
+    Personal Health Records
+  </h3>
+    <div class="admin_table">
+      <!-- Begin PHR -->
+<style type="text/css">    
+  .phr table { width: 100%; padding: 0px; margin: 2px 0px; border-collapse: collapse}
+  .phr .demographics th { width: 100px; }
+  .phr th.dosage { width: 175px; }
+  .phr th.frequency { width: 175px; }
+  .phr th.date { width: 100px; }
+  .phr td, .phr th { border: 1px solid #ccc; padding-left: 2px}
+  .phr th { background-color: #eee }
+  .phr th { text-align: left; vertical-align: top}
+  .phr td { text-align: left; vertical-align: top }
+  .phr td.hover { background-color: #C7D1E7 }    
+</style>
+
+<div class="phr"> 
+
+<h3>Demographic Information</h3> 
+<table class="demographics"> 
+  <tr><th>Date of Birth</th><td></td></tr> 
+  <tr><th>Gender</th><td>Male</td></tr> 
+  <tr><th>Weight</th><td>95lbs (43kg)</td></tr> 
+  <tr><th>Height</th><td>5ft 3in (160cm)</td></tr> 
+  <tr><th>Blood Type</th><td>O+</td></tr> 
+  <tr><th>Race</th><td>Asian</td></tr> 
+</table>
+
+<h3>Conditions</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr>
+  <td>Asperger&#x27;s syndrome</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Attention Deficit Hyperactivity Disorder (ADHD) - Primarily Inattentive</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Social Phobia</td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+
+<h3>Medications
+</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="dosage">Dosage</th>
+  <th class="frequency">Frequency</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr >
+  <td>Adderall XR</td>
+  <td>10 mg Capsule, Sust. Release 24 hr</td>
+  <td>Take 1, 2 times per day</td>
+  <td>2010-10-19</td>
+  <td></td>
+</tr>
+<tr >
+  <td>Adderall XR</td>
+  <td>10 mg Capsule, Sust. Release 24 hr</td>
+  <td>Take 1, 1 time per day</td>
+  <td>2009-11-01</td>
+  <td></td>
+</tr>
+</table>
+
+<h3>Allergies</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="severity">Reaction/Severity</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr>
+  <td>DPT Vaccine</td>
+  <td>MILD</td>
+  <td>2003-01-01</td>
+  <td></td>
+</tr>
+</table>
+
+<h3>Procedures</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+<tr>
+  <td>EKG</td>
+  <td>2010-10-19</td>
+</tr>
+</table>
+
+<h3>Test Results</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="result">Result</th>
+  <th class="date">Date</th>
+</tr>
+<tr>
+  <td>Homocysteine - Serum</td>
+  <td>8 </td>
+  <td></td>
+</tr>
+<tr>
+  <td>Glucose, Blood</td>
+  <td>89 </td>
+  <td></td>
+</tr>
+<tr>
+  <td>Glucose, Blood</td>
+  <td>UNSPECIFIED </td>
+  <td></td>
+</tr>
+<tr>
+  <td>Homocysteine - Serum</td>
+  <td>UNSPECIFIED </td>
+  <td></td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>98 pounds</td>
+  <td>2008-05-23</td>
+</tr>
+<tr>
+  <td>Height</td>
+  <td>63 inches</td>
+  <td>2008-05-23</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>94 lb</td>
+  <td>2010-09-23</td>
+</tr>
+<tr>
+  <td>Height</td>
+  <td>63.5 inches</td>
+  <td>2010-09-23</td>
+</tr>
+<tr>
+  <td>Diastolic Blood Pressure</td>
+  <td>63 mmHg</td>
+  <td>2010-10-19</td>
+</tr>
+<tr>
+  <td>Systolic Blood Pressure</td>
+  <td>95 mmHg</td>
+  <td>2010-10-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-05-29</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-05-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-05-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-05-31</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-01</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-04</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-05</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-06-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-06</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1049 steps</td>
+  <td>2011-06-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.44 miles</td>
+  <td>2011-06-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.61 miles</td>
+  <td>2011-06-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1763 calories</td>
+  <td>2011-06-07</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3709 steps</td>
+  <td>2011-06-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1765 calories</td>
+  <td>2011-06-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.5 miles</td>
+  <td>2011-06-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7906 steps</td>
+  <td>2011-06-08</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1679 calories</td>
+  <td>2011-06-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2184 steps</td>
+  <td>2011-06-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.91 miles</td>
+  <td>2011-06-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7307 steps</td>
+  <td>2011-06-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1841 calories</td>
+  <td>2011-06-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.04 miles</td>
+  <td>2011-06-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1841 calories</td>
+  <td>2011-06-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7044 steps</td>
+  <td>2011-06-11</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.93 miles</td>
+  <td>2011-06-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1546 steps</td>
+  <td>2011-06-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.7 miles</td>
+  <td>2011-06-12</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1901 steps</td>
+  <td>2011-06-13</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-13</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.79 miles</td>
+  <td>2011-06-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3325 steps</td>
+  <td>2011-06-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1607 calories</td>
+  <td>2011-06-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.38 miles</td>
+  <td>2011-06-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-15</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>0 hours</td>
+  <td>2011-06-15</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.33 miles</td>
+  <td>2011-06-15</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>0 times</td>
+  <td>2011-06-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>796 steps</td>
+  <td>2011-06-15</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.63 miles</td>
+  <td>2011-06-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1516 steps</td>
+  <td>2011-06-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1852 calories</td>
+  <td>2011-06-17</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8030 steps</td>
+  <td>2011-06-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.63 miles</td>
+  <td>2011-06-17</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>5.07 hours</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>10 times</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.6 miles</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1455 steps</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1654 calories</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-06-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1598 calories</td>
+  <td>2011-06-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1433 steps</td>
+  <td>2011-06-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.6 miles</td>
+  <td>2011-06-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.52 miles</td>
+  <td>2011-06-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1629 calories</td>
+  <td>2011-06-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5901 steps</td>
+  <td>2011-06-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1933 calories</td>
+  <td>2011-06-21</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.51 miles</td>
+  <td>2011-06-21</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8450 steps</td>
+  <td>2011-06-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1686 calories</td>
+  <td>2011-06-22</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5114 steps</td>
+  <td>2011-06-22</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.13 miles</td>
+  <td>2011-06-22</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.8 miles</td>
+  <td>2011-06-23</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4333 steps</td>
+  <td>2011-06-23</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1638 calories</td>
+  <td>2011-06-23</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>28 times</td>
+  <td>2011-06-24</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.57 miles</td>
+  <td>2011-06-24</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>4.27 hours</td>
+  <td>2011-06-24</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1644 calories</td>
+  <td>2011-06-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1380 steps</td>
+  <td>2011-06-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1762 steps</td>
+  <td>2011-06-25</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>15 times</td>
+  <td>2011-06-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.73 miles</td>
+  <td>2011-06-25</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-25</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>3.85 hours</td>
+  <td>2011-06-25</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1676 calories</td>
+  <td>2011-06-26</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.59 miles</td>
+  <td>2011-06-26</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3814 steps</td>
+  <td>2011-06-26</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>15 times</td>
+  <td>2011-06-26</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>1.48 hours</td>
+  <td>2011-06-26</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1820 steps</td>
+  <td>2011-06-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.76 miles</td>
+  <td>2011-06-27</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-27</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>2.43 hours</td>
+  <td>2011-06-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1400 steps</td>
+  <td>2011-06-28</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.58 miles</td>
+  <td>2011-06-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-06-28</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>6 times</td>
+  <td>2011-06-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2003 calories</td>
+  <td>2011-06-29</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>2.13 hours</td>
+  <td>2011-06-29</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>2 times</td>
+  <td>2011-06-29</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>14412 steps</td>
+  <td>2011-06-29</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.99 miles</td>
+  <td>2011-06-29</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>16978 steps</td>
+  <td>2011-06-30</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>7.34 miles</td>
+  <td>2011-06-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2230 calories</td>
+  <td>2011-06-30</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>12 times</td>
+  <td>2011-07-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3624 steps</td>
+  <td>2011-07-01</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>4.32 hours</td>
+  <td>2011-07-01</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.51 miles</td>
+  <td>2011-07-01</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-01</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1768 calories</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>12 times</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9037 steps</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>3.35 hours</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.76 miles</td>
+  <td>2011-07-02</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.77 miles</td>
+  <td>2011-07-03</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1854 steps</td>
+  <td>2011-07-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1603 calories</td>
+  <td>2011-07-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2703 steps</td>
+  <td>2011-07-04</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.12 miles</td>
+  <td>2011-07-04</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-05</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3966 steps</td>
+  <td>2011-07-05</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>3.92 hours</td>
+  <td>2011-07-05</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>15 times</td>
+  <td>2011-07-05</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.65 miles</td>
+  <td>2011-07-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.7 miles</td>
+  <td>2011-07-06</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10793 steps</td>
+  <td>2011-07-06</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>4.65 hours</td>
+  <td>2011-07-06</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>0 times</td>
+  <td>2011-07-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1920 calories</td>
+  <td>2011-07-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.07 miles</td>
+  <td>2011-07-07</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9789 steps</td>
+  <td>2011-07-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1710 steps</td>
+  <td>2011-07-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.71 miles</td>
+  <td>2011-07-08</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>4 times</td>
+  <td>2011-07-08</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>1.25 hours</td>
+  <td>2011-07-08</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>10 times</td>
+  <td>2011-07-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1617 calories</td>
+  <td>2011-07-09</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>3.37 hours</td>
+  <td>2011-07-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4605 steps</td>
+  <td>2011-07-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.91 miles</td>
+  <td>2011-07-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.64 miles</td>
+  <td>2011-07-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1810 calories</td>
+  <td>2011-07-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6350 steps</td>
+  <td>2011-07-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1648 calories</td>
+  <td>2011-07-11</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.45 miles</td>
+  <td>2011-07-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5886 steps</td>
+  <td>2011-07-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>14479 steps</td>
+  <td>2011-07-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>6.15 miles</td>
+  <td>2011-07-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2080 calories</td>
+  <td>2011-07-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1734 calories</td>
+  <td>2011-07-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9308 steps</td>
+  <td>2011-07-13</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-07-13</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.87 miles</td>
+  <td>2011-07-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1425 steps</td>
+  <td>2011-07-14</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>5.5 hours</td>
+  <td>2011-07-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.59 miles</td>
+  <td>2011-07-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-14</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>32 times</td>
+  <td>2011-07-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.82 miles</td>
+  <td>2011-07-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1849 calories</td>
+  <td>2011-07-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8592 steps</td>
+  <td>2011-07-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1673 steps</td>
+  <td>2011-07-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.7 miles</td>
+  <td>2011-07-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3308 steps</td>
+  <td>2011-07-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.38 miles</td>
+  <td>2011-07-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1639 calories</td>
+  <td>2011-07-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.29 miles</td>
+  <td>2011-07-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>12564 steps</td>
+  <td>2011-07-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1980 calories</td>
+  <td>2011-07-18</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>9 times</td>
+  <td>2011-07-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2252 steps</td>
+  <td>2011-07-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1613 calories</td>
+  <td>2011-07-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.94 miles</td>
+  <td>2011-07-19</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>3.15 hours</td>
+  <td>2011-07-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.57 miles</td>
+  <td>2011-07-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6175 steps</td>
+  <td>2011-07-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1621 calories</td>
+  <td>2011-07-20</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.75 miles</td>
+  <td>2011-07-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1828 calories</td>
+  <td>2011-07-21</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9021 steps</td>
+  <td>2011-07-21</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9176 steps</td>
+  <td>2011-07-22</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.81 miles</td>
+  <td>2011-07-22</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1859 calories</td>
+  <td>2011-07-22</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1687 calories</td>
+  <td>2011-07-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.08 miles</td>
+  <td>2011-07-23</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7400 steps</td>
+  <td>2011-07-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.68 miles</td>
+  <td>2011-07-24</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1712 calories</td>
+  <td>2011-07-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8859 steps</td>
+  <td>2011-07-24</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1696 calories</td>
+  <td>2011-07-25</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9299 steps</td>
+  <td>2011-07-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.87 miles</td>
+  <td>2011-07-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.64 miles</td>
+  <td>2011-07-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1613 calories</td>
+  <td>2011-07-26</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3946 steps</td>
+  <td>2011-07-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2199 calories</td>
+  <td>2011-07-27</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>16593 steps</td>
+  <td>2011-07-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>6.9 miles</td>
+  <td>2011-07-27</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10164 steps</td>
+  <td>2011-07-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-07-28</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.23 miles</td>
+  <td>2011-07-28</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.65 miles</td>
+  <td>2011-07-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1796 calories</td>
+  <td>2011-07-29</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8773 steps</td>
+  <td>2011-07-29</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.34 miles</td>
+  <td>2011-07-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1866 calories</td>
+  <td>2011-07-30</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5620 steps</td>
+  <td>2011-07-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1955 calories</td>
+  <td>2011-07-31</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.28 miles</td>
+  <td>2011-07-31</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10297 steps</td>
+  <td>2011-07-31</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2264 calories</td>
+  <td>2011-08-01</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>7.75 miles</td>
+  <td>2011-08-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>18345 steps</td>
+  <td>2011-08-01</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.4 miles</td>
+  <td>2011-08-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1934 calories</td>
+  <td>2011-08-02</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10586 steps</td>
+  <td>2011-08-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1837 calories</td>
+  <td>2011-08-03</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10699 steps</td>
+  <td>2011-08-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.45 miles</td>
+  <td>2011-08-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.57 miles</td>
+  <td>2011-08-04</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1938 calories</td>
+  <td>2011-08-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>13391 steps</td>
+  <td>2011-08-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>13706 steps</td>
+  <td>2011-08-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2032 calories</td>
+  <td>2011-08-05</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.7 miles</td>
+  <td>2011-08-05</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>31245 steps</td>
+  <td>2011-08-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>13.41 miles</td>
+  <td>2011-08-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2919 calories</td>
+  <td>2011-08-06</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>2.73 hours</td>
+  <td>2011-08-07</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>5 times</td>
+  <td>2011-08-07</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>17435 steps</td>
+  <td>2011-08-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2228 calories</td>
+  <td>2011-08-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>7.25 miles</td>
+  <td>2011-08-07</td>
+</tr>
+<tr>
+  <td>Times awakened</td>
+  <td>8 times</td>
+  <td>2011-08-08</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2135 calories</td>
+  <td>2011-08-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.18 miles</td>
+  <td>2011-08-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>12461 steps</td>
+  <td>2011-08-08</td>
+</tr>
+<tr>
+  <td>Hours slept</td>
+  <td>2.33 hours</td>
+  <td>2011-08-08</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1937 calories</td>
+  <td>2011-08-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>11015 steps</td>
+  <td>2011-08-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.79 miles</td>
+  <td>2011-08-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-08-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.73 miles</td>
+  <td>2011-08-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>13641 steps</td>
+  <td>2011-08-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.62 miles</td>
+  <td>2011-08-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>13234 steps</td>
+  <td>2011-08-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1845 calories</td>
+  <td>2011-08-11</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.16 miles</td>
+  <td>2011-08-12</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7601 steps</td>
+  <td>2011-08-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1864 calories</td>
+  <td>2011-08-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1691 calories</td>
+  <td>2011-08-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6502 steps</td>
+  <td>2011-08-13</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.7 miles</td>
+  <td>2011-08-13</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.56 miles</td>
+  <td>2011-08-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1579 calories</td>
+  <td>2011-08-14</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1347 steps</td>
+  <td>2011-08-14</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4524 steps</td>
+  <td>2011-08-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1680 calories</td>
+  <td>2011-08-15</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.88 miles</td>
+  <td>2011-08-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2352 steps</td>
+  <td>2011-08-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.98 miles</td>
+  <td>2011-08-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-08-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2 miles</td>
+  <td>2011-08-17</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4806 steps</td>
+  <td>2011-08-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1635 calories</td>
+  <td>2011-08-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.36 miles</td>
+  <td>2011-08-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1700 calories</td>
+  <td>2011-08-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5686 steps</td>
+  <td>2011-08-18</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.4 miles</td>
+  <td>2011-08-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5456 steps</td>
+  <td>2011-08-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1636 calories</td>
+  <td>2011-08-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-08-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3562 steps</td>
+  <td>2011-08-20</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.48 miles</td>
+  <td>2011-08-20</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.02 miles</td>
+  <td>2011-08-21</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4854 steps</td>
+  <td>2011-08-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1626 calories</td>
+  <td>2011-08-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1711 calories</td>
+  <td>2011-08-22</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.11 miles</td>
+  <td>2011-08-22</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5084 steps</td>
+  <td>2011-08-22</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-08-23</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3217 steps</td>
+  <td>2011-08-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.34 miles</td>
+  <td>2011-08-23</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1754 calories</td>
+  <td>2011-08-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8978 steps</td>
+  <td>2011-08-24</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.73 miles</td>
+  <td>2011-08-24</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1689 calories</td>
+  <td>2011-08-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.41 miles</td>
+  <td>2011-08-25</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3400 steps</td>
+  <td>2011-08-25</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8735 steps</td>
+  <td>2011-08-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1908 calories</td>
+  <td>2011-08-26</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.63 miles</td>
+  <td>2011-08-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1664 calories</td>
+  <td>2011-08-27</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3962 steps</td>
+  <td>2011-08-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.65 miles</td>
+  <td>2011-08-27</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1638 calories</td>
+  <td>2011-08-28</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.37 miles</td>
+  <td>2011-08-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3299 steps</td>
+  <td>2011-08-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6055 steps</td>
+  <td>2011-08-29</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.52 miles</td>
+  <td>2011-08-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1775 calories</td>
+  <td>2011-08-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2118 calories</td>
+  <td>2011-08-30</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.31 miles</td>
+  <td>2011-08-30</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>12783 steps</td>
+  <td>2011-08-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1775 calories</td>
+  <td>2011-08-31</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.51 miles</td>
+  <td>2011-08-31</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7168 steps</td>
+  <td>2011-08-31</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1652 calories</td>
+  <td>2011-09-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2127 steps</td>
+  <td>2011-09-01</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.88 miles</td>
+  <td>2011-09-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2039 steps</td>
+  <td>2011-09-02</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.85 miles</td>
+  <td>2011-09-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1620 calories</td>
+  <td>2011-09-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1568 calories</td>
+  <td>2011-09-03</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2384 steps</td>
+  <td>2011-09-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.99 miles</td>
+  <td>2011-09-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1627 calories</td>
+  <td>2011-09-04</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.17 miles</td>
+  <td>2011-09-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2811 steps</td>
+  <td>2011-09-04</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.34 miles</td>
+  <td>2011-09-05</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5620 steps</td>
+  <td>2011-09-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1752 calories</td>
+  <td>2011-09-05</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5658 steps</td>
+  <td>2011-09-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.35 miles</td>
+  <td>2011-09-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1670 calories</td>
+  <td>2011-09-06</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4785 steps</td>
+  <td>2011-09-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.99 miles</td>
+  <td>2011-09-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1600 calories</td>
+  <td>2011-09-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.47 miles</td>
+  <td>2011-09-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10762 steps</td>
+  <td>2011-09-08</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1862 calories</td>
+  <td>2011-09-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.27 miles</td>
+  <td>2011-09-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7874 steps</td>
+  <td>2011-09-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1762 calories</td>
+  <td>2011-09-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.63 miles</td>
+  <td>2011-09-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6329 steps</td>
+  <td>2011-09-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1633 calories</td>
+  <td>2011-09-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2900 steps</td>
+  <td>2011-09-11</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.21 miles</td>
+  <td>2011-09-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-09-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1756 calories</td>
+  <td>2011-09-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.77 miles</td>
+  <td>2011-09-12</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>11094 steps</td>
+  <td>2011-09-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.1 miles</td>
+  <td>2011-09-13</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-09-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2635 steps</td>
+  <td>2011-09-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3764 steps</td>
+  <td>2011-09-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.56 miles</td>
+  <td>2011-09-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1593 calories</td>
+  <td>2011-09-14</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1598 calories</td>
+  <td>2011-09-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4697 steps</td>
+  <td>2011-09-15</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.95 miles</td>
+  <td>2011-09-15</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-09-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1600 calories</td>
+  <td>2011-09-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2813 steps</td>
+  <td>2011-09-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.17 miles</td>
+  <td>2011-09-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4343 steps</td>
+  <td>2011-09-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1627 calories</td>
+  <td>2011-09-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.81 miles</td>
+  <td>2011-09-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-09-18</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.6 miles</td>
+  <td>2011-09-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1437 steps</td>
+  <td>2011-09-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1596 calories</td>
+  <td>2011-09-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.65 miles</td>
+  <td>2011-09-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3974 steps</td>
+  <td>2011-09-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.88 miles</td>
+  <td>2011-09-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1724 calories</td>
+  <td>2011-09-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4520 steps</td>
+  <td>2011-09-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6276 steps</td>
+  <td>2011-09-21</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.61 miles</td>
+  <td>2011-09-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1669 calories</td>
+  <td>2011-09-21</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.56 miles</td>
+  <td>2011-09-22</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6162 steps</td>
+  <td>2011-09-22</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1682 calories</td>
+  <td>2011-09-22</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1574 calories</td>
+  <td>2011-09-23</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2941 steps</td>
+  <td>2011-09-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.22 miles</td>
+  <td>2011-09-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.94 miles</td>
+  <td>2011-09-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4668 steps</td>
+  <td>2011-09-24</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1646 calories</td>
+  <td>2011-09-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9680 steps</td>
+  <td>2011-09-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.02 miles</td>
+  <td>2011-09-25</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1970 calories</td>
+  <td>2011-09-25</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.2 miles</td>
+  <td>2011-09-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1648 calories</td>
+  <td>2011-09-26</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5302 steps</td>
+  <td>2011-09-26</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3519 steps</td>
+  <td>2011-09-27</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1560 calories</td>
+  <td>2011-09-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.46 miles</td>
+  <td>2011-09-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.91 miles</td>
+  <td>2011-09-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1615 calories</td>
+  <td>2011-09-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6997 steps</td>
+  <td>2011-09-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1809 calories</td>
+  <td>2011-09-29</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.97 miles</td>
+  <td>2011-09-29</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7155 steps</td>
+  <td>2011-09-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1742 calories</td>
+  <td>2011-09-30</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9008 steps</td>
+  <td>2011-09-30</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.74 miles</td>
+  <td>2011-09-30</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>6.39 miles</td>
+  <td>2011-10-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>14685 steps</td>
+  <td>2011-10-01</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2090 calories</td>
+  <td>2011-10-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>15655 steps</td>
+  <td>2011-10-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2187 calories</td>
+  <td>2011-10-02</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>6.63 miles</td>
+  <td>2011-10-02</td>
+</tr>
+<tr>
+  <td>Weight</td>
+  <td>95 lbs</td>
+  <td>2011-10-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.05 miles</td>
+  <td>2011-10-03</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6968 steps</td>
+  <td>2011-10-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1803 calories</td>
+  <td>2011-10-03</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4531 steps</td>
+  <td>2011-10-04</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.88 miles</td>
+  <td>2011-10-04</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1636 calories</td>
+  <td>2011-10-04</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.18 miles</td>
+  <td>2011-10-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1647 calories</td>
+  <td>2011-10-05</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7652 steps</td>
+  <td>2011-10-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-10-06</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7015 steps</td>
+  <td>2011-10-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.92 miles</td>
+  <td>2011-10-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-10-07</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1064 steps</td>
+  <td>2011-10-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.44 miles</td>
+  <td>2011-10-07</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1588 calories</td>
+  <td>2011-10-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2039 steps</td>
+  <td>2011-10-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.85 miles</td>
+  <td>2011-10-08</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.85 miles</td>
+  <td>2011-10-09</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4443 steps</td>
+  <td>2011-10-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1734 calories</td>
+  <td>2011-10-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.34 miles</td>
+  <td>2011-10-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5626 steps</td>
+  <td>2011-10-10</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1882 calories</td>
+  <td>2011-10-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.87 miles</td>
+  <td>2011-10-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4498 steps</td>
+  <td>2011-10-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1760 calories</td>
+  <td>2011-10-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1616 calories</td>
+  <td>2011-10-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.79 miles</td>
+  <td>2011-10-12</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1898 steps</td>
+  <td>2011-10-12</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.38 miles</td>
+  <td>2011-10-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5715 steps</td>
+  <td>2011-10-13</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1685 calories</td>
+  <td>2011-10-13</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2058 calories</td>
+  <td>2011-10-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.13 miles</td>
+  <td>2011-10-14</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9422 steps</td>
+  <td>2011-10-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.14 miles</td>
+  <td>2011-10-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9959 steps</td>
+  <td>2011-10-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1969 calories</td>
+  <td>2011-10-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-10-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2406 steps</td>
+  <td>2011-10-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1 miles</td>
+  <td>2011-10-16</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.04 miles</td>
+  <td>2011-10-17</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>11981 steps</td>
+  <td>2011-10-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1908 calories</td>
+  <td>2011-10-17</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1707 calories</td>
+  <td>2011-10-18</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.38 miles</td>
+  <td>2011-10-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5723 steps</td>
+  <td>2011-10-18</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.79 miles</td>
+  <td>2011-10-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>9113 steps</td>
+  <td>2011-10-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1799 calories</td>
+  <td>2011-10-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.99 miles</td>
+  <td>2011-10-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4789 steps</td>
+  <td>2011-10-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1634 calories</td>
+  <td>2011-10-20</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.58 miles</td>
+  <td>2011-10-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1853 calories</td>
+  <td>2011-10-21</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>8609 steps</td>
+  <td>2011-10-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1730 calories</td>
+  <td>2011-10-22</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.67 miles</td>
+  <td>2011-10-22</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4011 steps</td>
+  <td>2011-10-22</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1495 steps</td>
+  <td>2011-10-23</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.62 miles</td>
+  <td>2011-10-23</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1947 calories</td>
+  <td>2011-10-23</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1938 calories</td>
+  <td>2011-10-24</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6528 steps</td>
+  <td>2011-10-24</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.92 miles</td>
+  <td>2011-10-24</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.72 miles</td>
+  <td>2011-10-25</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3920 steps</td>
+  <td>2011-10-25</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1755 calories</td>
+  <td>2011-10-25</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3089 steps</td>
+  <td>2011-10-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1637 calories</td>
+  <td>2011-10-26</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.38 miles</td>
+  <td>2011-10-26</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1724 calories</td>
+  <td>2011-10-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.21 miles</td>
+  <td>2011-10-27</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2921 steps</td>
+  <td>2011-10-27</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.35 miles</td>
+  <td>2011-10-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>841 steps</td>
+  <td>2011-10-28</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1567 calories</td>
+  <td>2011-10-28</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2255 steps</td>
+  <td>2011-10-29</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.94 miles</td>
+  <td>2011-10-29</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1573 calories</td>
+  <td>2011-10-29</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1696 steps</td>
+  <td>2011-10-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1658 calories</td>
+  <td>2011-10-30</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.71 miles</td>
+  <td>2011-10-30</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1682 calories</td>
+  <td>2011-10-31</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.21 miles</td>
+  <td>2011-10-31</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2779 steps</td>
+  <td>2011-10-31</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>3.01 miles</td>
+  <td>2011-11-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>7240 steps</td>
+  <td>2011-11-01</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1782 calories</td>
+  <td>2011-11-01</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5858 steps</td>
+  <td>2011-11-02</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1707 calories</td>
+  <td>2011-11-02</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.44 miles</td>
+  <td>2011-11-02</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2294 steps</td>
+  <td>2011-11-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.95 miles</td>
+  <td>2011-11-03</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1644 calories</td>
+  <td>2011-11-03</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.14 miles</td>
+  <td>2011-11-04</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1783 calories</td>
+  <td>2011-11-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2735 steps</td>
+  <td>2011-11-04</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>2090 steps</td>
+  <td>2011-11-05</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.87 miles</td>
+  <td>2011-11-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1778 calories</td>
+  <td>2011-11-05</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1747 calories</td>
+  <td>2011-11-06</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1721 steps</td>
+  <td>2011-11-06</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.72 miles</td>
+  <td>2011-11-06</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1645 calories</td>
+  <td>2011-11-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.69 miles</td>
+  <td>2011-11-07</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1670 steps</td>
+  <td>2011-11-07</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.77 miles</td>
+  <td>2011-11-08</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1587 calories</td>
+  <td>2011-11-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1851 steps</td>
+  <td>2011-11-08</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3583 steps</td>
+  <td>2011-11-09</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.49 miles</td>
+  <td>2011-11-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1829 calories</td>
+  <td>2011-11-09</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1642 calories</td>
+  <td>2011-11-10</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1321 steps</td>
+  <td>2011-11-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.55 miles</td>
+  <td>2011-11-10</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>0.49 miles</td>
+  <td>2011-11-11</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>1176 steps</td>
+  <td>2011-11-11</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1564 calories</td>
+  <td>2011-11-11</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.62 miles</td>
+  <td>2011-11-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1907 calories</td>
+  <td>2011-11-12</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6311 steps</td>
+  <td>2011-11-12</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1771 calories</td>
+  <td>2011-11-13</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.86 miles</td>
+  <td>2011-11-13</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4475 steps</td>
+  <td>2011-11-13</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2053 calories</td>
+  <td>2011-11-14</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>10311 steps</td>
+  <td>2011-11-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>4.29 miles</td>
+  <td>2011-11-14</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.46 miles</td>
+  <td>2011-11-15</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1809 calories</td>
+  <td>2011-11-15</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5928 steps</td>
+  <td>2011-11-15</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>5.5 miles</td>
+  <td>2011-11-16</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>12928 steps</td>
+  <td>2011-11-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>2021 calories</td>
+  <td>2011-11-16</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1598 calories</td>
+  <td>2011-11-17</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>5469 steps</td>
+  <td>2011-11-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.27 miles</td>
+  <td>2011-11-17</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>2.67 miles</td>
+  <td>2011-11-18</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1762 calories</td>
+  <td>2011-11-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>6432 steps</td>
+  <td>2011-11-18</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>4679 steps</td>
+  <td>2011-11-19</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1662 calories</td>
+  <td>2011-11-19</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.95 miles</td>
+  <td>2011-11-19</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3409 steps</td>
+  <td>2011-11-20</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.42 miles</td>
+  <td>2011-11-20</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1646 calories</td>
+  <td>2011-11-20</td>
+</tr>
+<tr>
+  <td>Steps taken</td>
+  <td>3740 steps</td>
+  <td>2011-11-21</td>
+</tr>
+<tr>
+  <td>Daily distance</td>
+  <td>1.6 miles</td>
+  <td>2011-11-21</td>
+</tr>
+<tr>
+  <td>Calories burned</td>
+  <td>1653 calories</td>
+  <td>2011-11-21</td>
+</tr>
+</table>
+
+<h3>Immunizations</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+</div>
+<p><em>Updated: 2011-11-22T18:10:15.538Z</em></p>
+<script type="text/javascript"> 
+  $(".phr tr").hover(
+  function() {
+  $("td", this).addClass("hover");
+  },
+  function() {
+  $("td", this).removeClass("hover");
+  });
+</script>
+<!-- End PHR -->
+
+    </div>
+
+  <a name="samples"></a>
+
+  <h3>Samples</h3>
+
+
+    <div class="profile-data">
+      <table>
+        <tbody>
+              <tr>
+                  <th rowspan="5" style="width: 15%">
+                    <a href="/collection_events/1">PGP Blood Collection</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  29648323
+                  (whole blood)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Feinstein Institute.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7027').toggle(); jQuery(this).html(jQuery('.sample_log_7027').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7027 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Feinstein Institute</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 13:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:25 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-20 17:37:01 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  69820089
+                  (whole blood)
+                    received
+                    2012-05-02 13:45:25 UTC
+                     by Coriell.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7030').toggle(); jQuery(this).html(jQuery('.sample_log_7030').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7030 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 22:30:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample shipped to Coriell</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 13:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:25 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-20 17:37:01 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  72748178
+                  (whole blood)
+                    received
+                    2012-05-02 13:45:25 UTC
+                     by Coriell.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7029').toggle(); jQuery(this).html(jQuery('.sample_log_7029').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7029 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 22:30:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample shipped to Coriell</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 13:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:25 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-20 17:37:01 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  4726001
+                  (whole blood)
+                    received
+                    2012-05-02 13:45:25 UTC
+                     by Coriell.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7028').toggle(); jQuery(this).html(jQuery('.sample_log_7028').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7028 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-05-02 13:45:25 UTC</td>
+                            <td style="width: 20%">Coriell</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 22:30:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample shipped to Coriell</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 13:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:25 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-20 17:37:01 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  8188426
+                  (whole blood)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Feinstein Institute.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7026').toggle(); jQuery(this).html(jQuery('.sample_log_7026').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7026 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Feinstein Institute</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 21:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 13:00:00 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:25 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-20 17:37:01 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                  <th rowspan="2" style="width: 15%">
+                    <a href="/collection_events/3">Saliva Collection for Multiple Studies</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  2160471
+                  (saliva)
+                    mailed
+                    2011-10-22 22:45:44 UTC
+                    by
+                    hu92FD55.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_867').toggle(); jQuery(this).html(jQuery('.sample_log_867').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_867 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2011-10-22 22:45:44 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-22 22:44:39 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-13 21:05:15 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-03 20:13:10 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  64114016
+                  (saliva)
+                    received
+                    2011-12-03 22:53:55 UTC
+                     by Harvard University / TeloMe, Inc..
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_868').toggle(); jQuery(this).html(jQuery('.sample_log_868').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_868 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-03-26 19:10:11 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">A new sample 02450880 was derived from this sample</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-21 19:24:06 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">A new sample 24505537 was derived from this sample</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-21 19:23:31 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">A new sample 82781443 was derived from this sample</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-12-03 22:54:06 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample transferred to plate 62817412 (id=6) well A01 (id=1)</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-12-03 22:53:55 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher (scan)</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-22 22:45:44 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-22 22:44:39 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-13 21:05:15 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2011-10-03 20:13:10 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                  <th rowspan="5" style="width: 15%">
+                    <a href="/collection_events/6">Human Microbiome: diversity of microorganisms on and in the human body</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  86688441
+                  (microbiome)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Harvard University.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7527').toggle(); jQuery(this).html(jQuery('.sample_log_7527').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7527 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample claimed and received from participant at GET2012</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:53 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-23 17:00:37 UTC</td>
+                            <td style="width: 20%">hu5D9DE3</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  53405241
+                  (microbiome)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Harvard University.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7530').toggle(); jQuery(this).html(jQuery('.sample_log_7530').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7530 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample claimed and received from participant at GET2012</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:53 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-23 17:00:37 UTC</td>
+                            <td style="width: 20%">hu5D9DE3</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  17127046
+                  (microbiome)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Harvard University.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7529').toggle(); jQuery(this).html(jQuery('.sample_log_7529').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7529 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample claimed and received from participant at GET2012</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:53 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-23 17:00:37 UTC</td>
+                            <td style="width: 20%">hu5D9DE3</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  65730484
+                  (microbiome)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Harvard University.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7526').toggle(); jQuery(this).html(jQuery('.sample_log_7526').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7526 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample claimed and received from participant at GET2012</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:53 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-23 17:00:37 UTC</td>
+                            <td style="width: 20%">hu5D9DE3</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  56410706
+                  (microbiome)
+                    received
+                    2012-04-26 16:00:00 UTC
+                     by Harvard University.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_7528').toggle(); jQuery(this).html(jQuery('.sample_log_7528').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_7528 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-04-26 16:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample claimed and received from participant at GET2012</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-25 02:17:53 UTC</td>
+                            <td style="width: 20%">Harvard University</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-23 17:00:37 UTC</td>
+                            <td style="width: 20%">hu5D9DE3</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                  <th rowspan="3" style="width: 15%">
+                    <a href="/collection_events/7">Saliva Re-collection for Multiple Studies</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  68554977
+                  (saliva)
+                    received
+                    2012-05-07 23:10:21 UTC
+                     by Harvard University / TeloMe, Inc..
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_3121').toggle(); jQuery(this).html(jQuery('.sample_log_3121').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_3121 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-07 23:10:21 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-28 00:07:06 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-01 13:47:58 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-24 23:41:22 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-06 15:28:50 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  60445070
+                  (saliva)
+                    received
+                    2012-05-07 23:10:13 UTC
+                     by Harvard University / TeloMe, Inc..
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_4799').toggle(); jQuery(this).html(jQuery('.sample_log_4799').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_4799 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-07 23:10:13 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-28 00:07:06 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-01 13:47:58 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-24 23:41:22 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-06 15:28:50 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  72791462
+                  (saliva)
+                    received
+                    2012-05-07 23:10:29 UTC
+                     by Harvard University / TeloMe, Inc..
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_3120').toggle(); jQuery(this).html(jQuery('.sample_log_3120').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_3120 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2012-05-07 23:10:29 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-28 00:07:05 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-04-01 13:47:58 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-24 23:41:22 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2012-03-06 15:28:50 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                  <th rowspan="1" style="width: 15%">
+                    <a href="/collection_events/11">GET Conference 2013 single vial saliva collection</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  12444009
+                  (saliva)
+                    received
+                    2013-05-03 17:14:15 UTC
+                     by hu92FD55.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_8826').toggle(); jQuery(this).html(jQuery('.sample_log_8826').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_8826 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2013-05-03 17:14:16 UTC</td>
+                            <td style="width: 20%">hu92FD55</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2013-04-24 13:48:01 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample sent</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2013-04-24 13:31:08 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+<h3>Uploaded data </h3>
+
+<div class="profile-data">
+  <table>
+    <thead>
+      <tr>
+	<th style="width:20px" class="collection-column"></th>
+	<th style="width:auto">Date</th>
+	<th style="width:auto">Data type</th>
+	<th>Name</th>
+	<th>Download</th>
+	<th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr data-file-row data-participant-id="4994" data-locator="28fe8334da8f72d08a1e974ca7b4da08+100+K@ant" data-index-in-manifest="1" data-file-size="447">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2013-11-07
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Microbiome</td>
+      <td data-summarize-as="name">Microbiome data for PGP kit #2187 &quot;Coachmen&quot; - Coachmen.txt</td>
+      <td data-summarize-as="size">
+	<a href="http://warehouse.pgp-hms.org/warehouse/28fe8334da8f72d08a1e974ca7b4da08+100+K@ant/Coachmen.txt" rel="nofollow">Download</a>
+	<br />(447 Bytes)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="4994" data-locator="28fe8334da8f72d08a1e974ca7b4da08+100+K@ant" data-index-in-manifest="0" data-file-size="2751894">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2013-11-07
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Microbiome</td>
+      <td data-summarize-as="name">Microbiome data for PGP kit #2187 &quot;Coachmen&quot; - Coachmen.fna.gz</td>
+      <td data-summarize-as="size">
+	<a href="http://warehouse.pgp-hms.org/warehouse/28fe8334da8f72d08a1e974ca7b4da08+100+K@ant/Coachmen.fna.gz" rel="nofollow">Download</a>
+	<br />(2.62 MB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="4994" data-locator="a531f5366315a231c84e4e407ac831c3+39763+K@ant" data-index-in-manifest="4" data-file-size="240985016">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2013-08-12
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Complete Genomics</td>
+      <td data-summarize-as="name">CGI sample GS01669-DNA_A04 masterVarBeta report</td>
+      <td data-summarize-as="size">
+	<a href="http://warehouse.pgp-hms.org/warehouse/a531f5366315a231c84e4e407ac831c3+39763+K@ant/GS000018111-DID/GS000015179-ASM/GS01669-DNA_A04/ASM/masterVarBeta-GS000015179-ASM.tsv.bz2" rel="nofollow">Download</a>
+	<br />(230 MB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="4994" data-locator="673705b25f7d54820cda7272a05882d8+82+K@ant" data-index-in-manifest="" data-file-size="16424089">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2013-05-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Microbiome</td>
+      <td data-summarize-as="name">Microbiome report for PGP kit #2187 &quot;Coachmen&quot;</td>
+      <td data-summarize-as="size">
+	<a href="http://warehouse.pgp-hms.org/warehouse/673705b25f7d54820cda7272a05882d8+82+K@ant/Coachmen_results.zip" rel="nofollow">Download</a>
+	<br />(15.7 MB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="4994" data-locator="7d30116d860836fd1a4cb95d9021e6a5+234+K@ant" data-index-in-manifest="" data-file-size="242934619">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2012-11-13
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Complete Genomics</td>
+      <td data-summarize-as="name">CGI sample GS01669-DNA_A04 from PGP sample 08188426</td>
+      <td data-summarize-as="size">
+	<a href="http://warehouse.pgp-hms.org/warehouse/7d30116d860836fd1a4cb95d9021e6a5+234+K@ant/var-GS000015179-ASM.tsv.bz2" rel="nofollow">Download</a>
+	<br />(232 MB)
+      </td>
+      <td data-summarize-as="none">
+	<a href="http://evidence.personalgenomes.org/genomes?display_genome_id=d916980d4acfddf12d7e07540775c112c91342a2">View&nbsp;report</a>
+
+	<br />&bull;&nbsp;male
+	<br />&bull;&nbsp;2,780,463,260 positions&nbsp;covered
+
+	<br />&bull;&nbsp;ref.&nbsp;b37
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<h3>
+  Geographic Information
+</h3>
+
+
+<table class="admin_table">
+<tr><td>State:</td><td>Washington</td></tr>
+<tr><td>Zip code:</td><td>98052</td></tr>
+</table>
+
+
+<h3>Family Members Enrolled </h3>
+None added.
+
+  <h3>Surveys</h3>
+    <div class="profile-data">
+      <table>
+        <tbody>
+            <tr>
+              <th>
+                PGP Participant Survey
+              </th>
+              <td>
+                  Responses submitted 7/16/2011 12:30:40.
+                <a href="#" onclick="jQuery('.survey_result_107').toggle(); jQuery(this).html(jQuery('.survey_result_107').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">7/16/2011 12:30:40</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Year of birth</td>
+                <td class="hoverable">21-29 years</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Which statement best describes you?</td>
+                <td class="hoverable">I am comfortable making my genome sequence data publicly available without prior review.</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Severe disease or rare genetic trait</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Do you have a severe genetic disease or rare genetic trait? If so, you can add a description for your public profile.</td>
+                <td class="hoverable">Father over age 35: Increases chances of genetic mutation.
+
+Anyways, I seem to have a uniquely severe case of combined Asperger&#x27;s+ADD that doesn&#x27;t exactly totally map with the symptoms mapped by the DSM-IV. And for whatever reason, I&#x27;m very strongly novelty-seeking.
+
+Personality-wise though, people say that I&#x27;m the most unique person that they&#x27;ve ever met. 
+
+Also, I seem to have a very strong sensory hypersensitivity issue (I go to all sorts of doctors but none of them seem to have any ideas about it). </td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Onset</td>
+                <td class="hoverable">10-19 years of age</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Rarity</td>
+                <td class="hoverable">Very rare/uncommon</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Severity</td>
+                <td class="hoverable">Moderate severity disease</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Relative enrollment</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Diagnosis</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Genetic confirmation</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Disease/trait: Documentation</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Sex/Gender</td>
+                <td class="hoverable">Male</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Race/ethnicity</td>
+                <td class="hoverable">Asian</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Maternal grandmother: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Paternal grandmother: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Paternal grandfather: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Maternal grandfather: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Enrollment of relatives</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Enrollment of older individuals</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Enrollment of parents</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Have you uploaded genetic data to your PGP participant profile?</td>
+                <td class="hoverable">No, I have no genetic data.</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Have you used the PGP web interface to record a designated proxy?</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Have you uploaded health record data using our Google Health or Microsoft Healthvault interfaces?</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Uploaded health records: Update status</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Uploaded health records: Extensiveness</td>
+                <td class="hoverable">2</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Blood sample</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Saliva sample</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Microbiome samples</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Tissue samples from surgery</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_107 ui-helper-hidden">
+                <td>Tissue samples from autopsy</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Participant Survey
+              </th>
+              <td>
+                  Responses submitted 4/27/2012 20:12:47.
+                <a href="#" onclick="jQuery('.survey_result_1972').toggle(); jQuery(this).html(jQuery('.survey_result_1972').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">4/27/2012 20:12:47</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Year of birth</td>
+                <td class="hoverable">21-29 years</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Which statement best describes you?</td>
+                <td class="hoverable">I am comfortable making my genome sequence data publicly available without prior review.</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Severe disease or rare genetic trait</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Sex/Gender</td>
+                <td class="hoverable">Male</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Race/ethnicity</td>
+                <td class="hoverable">Asian</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Maternal grandmother: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Paternal grandmother: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Paternal grandfather: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Maternal grandfather: Country of origin</td>
+                <td class="hoverable">China</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Enrollment of relatives</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Enrollment of older individuals</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Enrollment of parents</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Have you uploaded genetic data to your PGP participant profile?</td>
+                <td class="hoverable">No, I have no genetic data.</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Have you used the PGP web interface to record a designated proxy?</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Have you uploaded health record data using our Google Health or Microsoft Healthvault interfaces?</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Uploaded health records: Update status</td>
+                <td class="hoverable">No</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Uploaded health records: Extensiveness</td>
+                <td class="hoverable">2</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Blood sample</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Saliva sample</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Microbiome samples</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Tissue samples from surgery</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+              <tr class="survey_result_1972 ui-helper-hidden">
+                <td>Tissue samples from autopsy</td>
+                <td class="hoverable">Yes</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Skin and Subcutaneous Tissue
+              </th>
+              <td>
+                  Responses submitted 11/13/2012 16:42:22.
+                <a href="#" onclick="jQuery('.survey_result_5456').toggle(); jQuery(this).html(jQuery('.survey_result_5456').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_5456 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">11/13/2012 16:42:22</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Blood
+              </th>
+              <td>
+                  Responses submitted 11/13/2012 16:42:32.
+                <a href="#" onclick="jQuery('.survey_result_5457').toggle(); jQuery(this).html(jQuery('.survey_result_5457').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_5457 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">11/13/2012 16:42:32</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Musculoskeletal System and Connective Tissue
+              </th>
+              <td>
+                  Responses submitted 5/30/2013 23:31:49.
+                <a href="#" onclick="jQuery('.survey_result_11417').toggle(); jQuery(this).html(jQuery('.survey_result_11417').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_11417 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/30/2013 23:31:49</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Cancers
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:05.
+                <a href="#" onclick="jQuery('.survey_result_15349').toggle(); jQuery(this).html(jQuery('.survey_result_15349').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15349 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:05</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Endocrine, Metabolic, Nutritional, and Immunity
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:12.
+                <a href="#" onclick="jQuery('.survey_result_15350').toggle(); jQuery(this).html(jQuery('.survey_result_15350').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15350 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:12</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Nervous System
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:28.
+                <a href="#" onclick="jQuery('.survey_result_15351').toggle(); jQuery(this).html(jQuery('.survey_result_15351').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15351 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:28</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Vision and hearing
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:38.
+                <a href="#" onclick="jQuery('.survey_result_15352').toggle(); jQuery(this).html(jQuery('.survey_result_15352').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15352 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:38</td>
+              </tr>
+              <tr class="survey_result_15352 ui-helper-hidden">
+                <td>Have you ever been diagnosed with one of the following conditions?</td>
+                <td class="hoverable">Myopia (Nearsightedness)</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Circulatory System
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:47.
+                <a href="#" onclick="jQuery('.survey_result_15353').toggle(); jQuery(this).html(jQuery('.survey_result_15353').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15353 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:47</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Respiratory System
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:53.
+                <a href="#" onclick="jQuery('.survey_result_15354').toggle(); jQuery(this).html(jQuery('.survey_result_15354').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15354 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:53</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Digestive System
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:47:58.
+                <a href="#" onclick="jQuery('.survey_result_15355').toggle(); jQuery(this).html(jQuery('.survey_result_15355').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15355 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:47:58</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Genitourinary Systems
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:48:03.
+                <a href="#" onclick="jQuery('.survey_result_15356').toggle(); jQuery(this).html(jQuery('.survey_result_15356').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15356 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:48:03</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Congenital Traits and Anomalies
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:48:09.
+                <a href="#" onclick="jQuery('.survey_result_15357').toggle(); jQuery(this).html(jQuery('.survey_result_15357').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15357 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:48:09</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Skin and Subcutaneous Tissue
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:48:40.
+                <a href="#" onclick="jQuery('.survey_result_15358').toggle(); jQuery(this).html(jQuery('.survey_result_15358').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15358 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:48:40</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Nervous System
+              </th>
+              <td>
+                  Responses submitted 3/3/2014 17:52:24.
+                <a href="#" onclick="jQuery('.survey_result_15359').toggle(); jQuery(this).html(jQuery('.survey_result_15359').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_15359 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">3/3/2014 17:52:24</td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+
+<h3>Absolute Pitch Survey
+    <a href="/absolute_pitch_surveys/review/hu92FD55">[see all responses]</a>
+</h3>
+
+      <div>Can tell if notes are in tune: <span style="font-weight:bold">Not sure</span></div>
+      <div>Can sing a melody on key: <span style="font-weight:bold">Not sure</span></div>
+      <div>Can recognize musical intervals: <span style="font-weight:bold">Not sure</span></div>
+      <div>Do you have absolute pitch? <span style="font-weight:bold">Not sure</span></div>
+
+<h3>Enrollment History</h3>
+
+<table class="admin_table">
+<tr><td>Participant ID:</td><td>hu92FD55</td></tr>
+<tr><td>Account created:</td><td>2010-10-12 11:29:00 UTC</td></tr>
+<tr><td>Eligibility screening:</td><td>2010-10-12 11:29:46 UTC (passed v2)</td></tr>
+<tr><td>Exam:</td><td>2010-10-12 11:42:15 UTC (passed v2)</td></tr>
+<tr><td>Consent:</td><td>2014-02-26 03:32:04 UTC (passed v20140218)</td></tr>
+<tr><td>Enrolled:</td><td>2010-10-12 23:08:15 UTC</td></tr>
+</table>
+ 
+
+
+
+
+
+    </div>
+
+    <div class="sidebar">
+      
+    </div>
+
+
+    <div class="clear"><!-- --></div>
+  </div>
+
+  <div id="foot">
+    <div id="privacy_tos">
+      <span>
+        <a href="/pages/sitemap">Site map</a>
+      </span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/privacypolicy.html">Privacy Policy</a></span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/tos.html">Terms of Use</a></span>
+    </div>
+    <div id="copyright">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" style="text-decoration:none;">
+          <img src="https://i.creativecommons.org/l/zero/1.0/88x31.png" border="0" alt="CC0" />
+        </a>
+        <br />
+        <br />
+        <font color="white">
+        To the extent possible under law, <a href="http://www.personalgenomes.org" rel="dct:publisher" style="color:white"><span property="dct:title">PersonalGenomes.org</span></a>
+        has waived all copyright and related or neighboring rights to
+        <span property="dct:title">Personal Genome Project Participant Genetic and Trait Dataset</span>.
+        This work is published from
+        <span about="www.personalgenomes.org" property="vcard:Country" datatype="dct:ISO3166" content="US">United States</span>.
+        </font>
+      </p>
+    </div>
+  </div>
+
+  <div id="jstemplates">
+    
+  </div>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-51513-4");
+pageTracker._trackPageview();
+</script>
+
+  <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = "https://analytics.freelogy.org/piwik/";
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="https://analytics.freelogy.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+    <script src="/javascripts/../bootstrap/js/bootstrap.js?1418011070" type="text/javascript"></script>
+
+</body>
+</html>

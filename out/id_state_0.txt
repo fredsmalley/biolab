@@ -1,0 +1,174 @@
+hu011C57	New Mexico
+hu016B28	New Hampshire
+hu0211D6	Texas
+hu025CEA	Massachusetts
+hu032C04	Pennsylvania
+hu034DB1	Colorado
+hu040C0A	
+hu04DF3C	
+hu04F220	New York
+hu050E9C	Pennsylvania
+hu05FD49	New York
+hu089792	Michigan
+hu0A4518	
+hu0CF2EE	Minnesota
+hu0D1FA1	Connecticut
+hu0D879F	
+hu0E64A1	New York
+hu1187FF	Arkansas
+hu132B5C	Washington
+hu1378E3	Virginia
+hu15FECA	New York
+hu1904EC	
+hu19C09F	Missouri
+hu1F73AB	California
+hu241DEA	
+hu24C863	New York
+hu259AC7	
+hu26B551	Oregon
+hu27FD1F	California
+hu2843C9	Ohio
+hu297562	Massachusetts
+hu2C1D94	Oklahoma
+hu2D6140	California
+hu2DBF2D	Michigan
+hu2FEC01	Michigan
+hu3073E3	
+hu33E2D9	North Carolina
+hu342A08	
+hu34D5B9	Massachusetts
+hu38168C	
+hu3A1B15	
+hu3A8D13	
+hu3C0611	Massachusetts
+hu3CAB43	Georgia
+hu3F864B	New York
+hu4040B8	California
+hu42D651	Rhode Island
+hu432EB5	Connecticut
+hu4339C0	
+hu448C4B	California
+hu44DCFF	Massachusetts
+hu470099	California
+hu48C4EB	New Jersey
+hu4B0812	Massachusetts
+hu4BE6F2	North Carolina
+hu4BF398	Kansas
+hu4CA5B9	Massachusetts
+hu4FE0D1	Idaho
+hu52B7E5	Massachusetts
+hu52F345	Massachusetts
+hu553620	Tennessee
+hu57A769	California
+hu589D0B	West Virginia
+hu599905	New York
+hu5B8771	
+hu5CD2C6	Massachusetts
+hu5E55F5	Oregon
+hu5FA322	New York
+hu5FB1B9	California
+hu5FCE15	New York
+hu60180F	Wisconsin
+hu602487	Oregon
+hu60AB7C	New York
+hu619F51	Missouri
+hu620F18	Hawaii
+hu627574	California
+hu63EB0A	Georgia
+hu64DBF7	California
+hu661AD0	Puerto Rico
+hu67EBB3	
+hu687B6B	Connecticut
+hu68929D	
+hu6C733E	Missouri
+hu6E4515	Massachusetts
+hu704A85	
+hu7123C1	Maryland
+hu71E59D	
+hu72A81D	
+hu72C17A	New York
+hu76CAA5	California
+hu775356	Oregon
+hu7852C5	Ohio
+hu79F922	New York
+hu7A2F1D	Maryland
+hu7A4AD1	Delaware
+hu7B594C	Massachusetts
+hu7DCBF9	Louisiana
+hu8073B9	
+hu8229AE	Minnesota
+hu82436A	Maryland
+hu82E689	Florida
+hu868880	California
+hu88A079	
+hu8E2A35	California
+hu8E87A9	Massachusetts
+hu8F918A	
+hu90B053	Massachusetts
+hu92C40A	Arizona
+hu92FD55	Washington
+hu939B7C	Massachusetts
+hu955EE1	Virginia
+huA02824	
+huA05317	Massachusetts
+huA0E089	Massachusetts
+huA49E22	New Jersey
+huA4E2CF	Minnesota
+huA4F281	South Carolina
+huAA245C	Tennessee
+huAE4A11	
+huAEADC0	Massachusetts
+huAEC1B0	California
+huAFA81C	New York
+huB1FD55	California
+huB4883B	California
+huB4940E	Minnesota
+huB4D223	New Mexico
+huB4F9B2	
+huBA30D4	Tennessee
+huBAAC98	Massachusetts
+huBE0B25	Georgia
+huBEDA0B	New York
+huC14AE1	Minnesota
+huC29627	Michigan
+huC3160A	Illinois
+huC434ED	Massachusetts
+huC5733C	New York
+huC92BC9	New Hampshire
+huC93106	Massachusetts
+huCA017E	
+huCA14D2	California
+huCCAFD0	Massachusetts
+huCD380F	Idaho
+huD09534	Virginia
+huD103CC	California
+huD10E53	
+huD37D14	California
+huD3A569	California
+huD52556	Massachusetts
+huD81F3D	California
+huD9EE1E	
+huDBD591	Missouri
+huDBF9DD	Georgia
+huDE435D	Massachusetts
+huDF04CC	Texas
+huE2E371	California
+huE58004	Vermont
+huE9B698	New York
+huEA4EE5	Maryland
+huEBD467	New York
+huEC6EEC	California
+huED0F40	Virginia
+huEDEA65	New York
+huEDF7DA	Maryland
+huF1DC30	
+huF2DA6F	
+huF5AD12	
+huF5E0B6	
+huF80F84	Massachusetts
+huFA70A3	
+huFAF983	
+huFCC1C1	
+huFE71F3	Wisconsin
+huFFAD87	
+huFFB09D	California

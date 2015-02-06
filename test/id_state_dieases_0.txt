@@ -1,0 +1,151 @@
+hu64DBF7	CA	
+hu2DBF2D	MI	
+huE2E371	CA	"Colon polyps
+hu7B594C	MA	
+huD52556	MA	Lipoma
+huC14AE1	MN	
+huED0F40	VA	
+hu4BE6F2	NC	
+hu26B551	OR	Breast cancer
+hu627574	CA	
+hu67EBB3		
+hu016B28	NH	Colon polyps
+hu82E689	FL	
+hu2843C9	OH	Non-Hodgkin lymphoma
+hu7852C5	OH	
+hu8E2A35	CA	
+huC29627	MI	
+hu72A81D	NY	
+hu19C09F	MO	
+hu0E64A1	NY	
+huB1FD55	CA	Non-melanoma skin cancer
+hu7DCBF9	LA	
+hu2C1D94	OK	
+hu619F51	MO	
+huF80F84	MA	
+hu868880	CA	Kidney cancer
+huBEDA0B	NY	"Colon polyps
+hu60180F	WI	
+huA05317	MA	
+hu0211D6	TX	
+huB4883B	CA	"Non-melanoma skin cancer
+hu15FECA	NY	
+hu939B7C	MA	Lipoma
+hu52F345	MA	
+hu04DF3C		
+hu79F922	NY	
+hu089792	MI	
+hu5CD2C6	MA	
+huA4E2CF	MN	
+hu8229AE	MN	
+hu33E2D9	NC	
+huF2DA6F	OR	
+hu6E4515	MA	"Colon cancer
+hu050E9C	PA	Prostate cancer
+hu4CA5B9	MA	
+hu553620	TN	Non-melanoma skin cancer
+huCA14D2	CA	
+huD10E53		
+hu4040B8	CA	
+hu620F18	HI	
+huAA245C	TN	
+huC434ED	MA	
+hu04F220	NY	
+huA4F281	SC	
+hu34D5B9	MA	
+hu011C57	NM	
+hu7A2F1D	MD	Non-melanoma skin cancer
+huEDEA65	NY	
+huB4F9B2		
+hu602487	OR	"Colon polyps
+huFE71F3	WI	
+huA49E22	NJ	
+hu8E87A9	MA	
+huB4940E	MN	
+hu5FCE15	NY	
+huF5AD12		
+hu3CAB43	GA	
+hu432EB5	CT	
+hu24C863	NY	Lipoma
+huEBD467	NY	
+hu52B7E5	MA	Breast cancer
+hu63EB0A	GA	
+hu90B053	MA	
+hu297562	MA	
+huF1DC30		
+hu4FE0D1	ID	
+hu1F73AB	CA	Uterine fibroids
+hu3A8D13		
+huBAAC98	MA	
+huD09534	VA	Non-melanoma skin cancer
+hu82436A	MD	
+hu599905	NY	"Colon polyps
+huCCAFD0	MA	
+hu76CAA5	CA	
+huC3160A	IL	
+huAFA81C	NY	
+hu448C4B	CA	
+hu4BF398	KS	
+huBA30D4	TN	"Colon polyps
+huEC6EEC	CA	
+huE58004	VT	Lipoma
+hu132B5C	WA	
+huEDF7DA	MD	Colon polyps
+huDBF9DD	GA	
+hu0D879F		
+hu1378E3	VA	
+huEA4EE5	MD	
+huC93106	MA	
+huDF04CC	TX	Non-melanoma skin cancer
+huFFB09D	CA	
+huAEC1B0	CA	
+hu60AB7C	NY	Lipoma
+hu44DCFF	MA	
+hu687B6B	CT	Endometrial cancer
+hu0D1FA1	CT	
+huD103CC	CA	
+huC5733C	NY	
+hu4B0812	MA	Colon polyps
+hu05FD49	NY	Lipoma
+hu032C04	PA	
+huA0E089	MA	Uterine fibroids
+huAEADC0	MA	
+huAE4A11		
+hu7123C1	MD	Colon polyps
+huE9B698	NY	
+huDE435D	MA	
+hu025CEA	MA	Colon polyps
+hu1187FF	AR	Uterine fibroids
+hu661AD0		
+hu3073E3		
+hu72C17A	NY	
+hu2D6140	CA	
+hu3F864B	NY	
+hu5FB1B9	CA	Colon polyps
+huC92BC9	NH	
+hu3A1B15		
+hu3C0611	MA	
+hu0CF2EE	MN	
+hu48C4EB	NJ	
+hu5E55F5	OR	"Non-melanoma skin cancer
+hu42D651	RI	
+huB4D223	NM	
+huD37D14	CA	"Lipoma
+hu034DB1	CO	Uterine fibroids
+hu27FD1F	CA	
+hu92FD55	WA	
+hu2FEC01	MI	
+huD81F3D	CA	
+hu775356	OR	
+hu57A769	CA	
+hu589D0B	WV	Lipoma
+huBE0B25	GA	
+hu5FA322	NY	"Cervical cancer
+hu6C733E	MO	
+hu7A4AD1	DE	
+huD3A569	CA	Non-melanoma skin cancer
+hu92C40A	AZ	Breast cancer
+hu470099	CA	
+hu955EE1	VA	
+huDBD591	MO	
+huCD380F	ID	

@@ -1,0 +1,174 @@
+hu64DBF7	California	"Deviated septum"Deviated septum"Deviated septum"Dandruff"Dandruff"Myopia (Nearsightedness)"Myopia (Nearsightedness)
+hu2DBF2D	Michigan	"Acne"Myopia (Nearsightedness)
+huE2E371	California	"Psoriasis"Astigmatism
+hu7B594C	Massachusetts	
+huD52556	Massachusetts	Allergic rhinitis"Eczema"Myopia (Nearsightedness)
+huC14AE1	Minnesota	Acne"Myopia (Nearsightedness)
+huED0F40	Virginia	Allergic rhinitisAllergic rhinitis"Lichen planus"Lichen planus"Myopia (Nearsightedness)"Myopia (Nearsightedness)
+hu4BE6F2	North	"Dandruff"Myopia (Nearsightedness)"Myopia (Nearsightedness)
+hu26B551	Oregon	AsthmaSkin tags"Myopia (Nearsightedness)
+hu627574	California	Chronic tonsillitis"Rosacea"Rosacea"Hyperopia (Farsightedness)"Hyperopia (Farsightedness)
+hu67EBB3		
+hu704A85		
+hu016B28	New	"Deviated septum"Dandruff"Myopia (Nearsightedness)
+huFA70A3		
+huA02824		
+hu82E689	Florida	Hair loss (includes female and male pattern baldness)"Myopia (Nearsightedness)
+hu2843C9	Ohio	EczemaEczema"Myopia (Nearsightedness)
+hu7852C5	Ohio	Hair loss (includes female and male pattern baldness)Astigmatism
+hu8E2A35	California	"Skin tags"Skin tags"Myopia (Nearsightedness)"Myopia (Nearsightedness)
+huC29627	Michigan	"Deviated septum"DandruffAstigmatism
+hu72A81D		
+hu19C09F	Missouri	Allergic rhinitis"DandruffMyopia (Nearsightedness)
+hu0E64A1	New	Acne"Myopia (Nearsightedness)
+huB1FD55	California	"Allergic rhinitis"Eczema"Hyperopia (Farsightedness)
+hu7DCBF9	Louisiana	"Chronic sinusitisAcne"Myopia (Nearsightedness)
+hu2C1D94	Oklahoma	
+hu619F51	Missouri	Floaters
+huFFAD87		
+huF80F84	Massachusetts	DandruffMyopia (Nearsightedness)
+hu868880	California	"Impacted tooth"Thyroid nodule(s)Kidney stones"Spinal stenosis"Cluster headaches"Deviated septum"Dandruff"Myopia (Nearsightedness)
+huBEDA0B	New	"Presbyopia
+hu5B8771		Huntington's disease
+hu60180F	Wisconsin	"Impacted toothHigh cholesterol (hypercholesterolemia)"Urinary tract infection (UTI)"OsteoarthritisOther peripheral neuropathyAllergic rhinitis"Dandruff"Age-related cataract
+huA05317	Massachusetts	AcneMyopia (Nearsightedness)
+huD9EE1E		
+hu0211D6	Texas	"Deviated septum"Allergic contact dermatitis"Allergic contact dermatitis"Age-related cataract
+huB4883B	California	"Hyperopia (Farsightedness)
+hu15FECA	New	
+hu939B7C	Massachusetts	
+hu52F345	Massachusetts	
+hu04DF3C		Chronic tonsillitis"DandruffAge-related hearing loss
+hu79F922	New	Acne"Presbyopia"Age-related cataract
+hu089792	Michigan	Skin tags"Age-related cataract
+hu5CD2C6	Massachusetts	"Myopia (Nearsightedness)
+huA4E2CF	Minnesota	Skin tagsTinnitus
+hu8229AE	Minnesota	AsthmaAllergic contact dermatitis"Myopia (Nearsightedness)
+hu33E2D9	North	
+huF2DA6F		
+hu6E4515	Massachusetts	"Glaucoma
+hu050E9C	Pennsylvania	"Myopia (Nearsightedness)"Retinal detachment
+hu4CA5B9	Massachusetts	
+hu4339C0		
+hu553620	Tennessee	Recurrent sleep paralysisAllergic rhinitis"Dandruff"Myopia (Nearsightedness)
+hu342A08		
+hu8073B9		
+huFAF983		
+huCA14D2	California	
+huD10E53		
+hu4040B8	California	Allergic rhinitisDandruff"Myopia (Nearsightedness)
+hu620F18	Hawaii	"Eczema"Myopia (Nearsightedness)
+huAA245C	Tennessee	Raynaud's phenomenonCongenital heart defect"Impacted tooth"Thyroid nodule(s)"Urinary tract infection (UTI)Rheumatoid arthritis"Cluster headaches"Nasal polyps"Eczema"Myopia (Nearsightedness)
+huC434ED	Massachusetts	
+hu38168C		
+hu8F918A		
+hu04F220	New	"Dandruff"Myopia (Nearsightedness)
+huA4F281	South	"DandruffMyopia (Nearsightedness)
+hu34D5B9	Massachusetts	"Deviated septumDandruff"Myopia (Nearsightedness)
+hu011C57	New	Allergic rhinitis"Dandruff"Myopia (Nearsightedness)
+hu7A2F1D	Maryland	"Dandruff"Age-related cataract
+huEDEA65	New	FlatfeetOther peripheral neuropathyAllergic rhinitis"DandruffMyopia (Nearsightedness)Myopia (Nearsightedness)
+huB4F9B2		"DandruffFloaters
+hu602487	Oregon	Dandruff"Myopia (Nearsightedness)
+huFE71F3	Wisconsin	"Dental cavities"Diabetes mellitusKidney stones"Chondromalacia patella (CMP)"Osteoarthritis"Restless legs syndrome"Chronic bronchitis"Dandruff"Hyperopia (Farsightedness)
+hu259AC7		
+huA49E22	New	
+hu1904EC		
+huCA017E		
+hu8E87A9	Massachusetts	
+huB4940E	Minnesota	"Pilonidal cystHyperopia (Farsightedness)
+hu5FCE15	New	Acne"Myopia (Nearsightedness)
+huF5AD12		"Dandruff"Hyperopia (Farsightedness)
+hu3CAB43	Georgia	"Myopia (Nearsightedness)
+hu432EB5	Connecticut	NarcolepsyDeviated septum"Skin tags"Myopia (Nearsightedness)
+hu24C863	New	"Dental cavitiesHigh cholesterol (hypercholesterolemia)Urinary tract infection (UTI)"OsteoarthritisMigraine with auraAllergic rhinitis"Allergic contact dermatitis"Age-related cataract
+hu0A4518		
+huEBD467	New	Acne"Myopia (Nearsightedness)
+hu52B7E5	Massachusetts	Skin tags"Myopia (Nearsightedness)
+hu63EB0A	Georgia	Asthma"Skin tags"Retinal detachment
+hu90B053	Massachusetts	
+hu297562	Massachusetts	Chronic sinusitisAcneMyopia (Nearsightedness)
+huF1DC30		"Myopia (Nearsightedness)
+hu4FE0D1	Idaho	Myopia (Nearsightedness)
+hu1F73AB	California	"Chronic tonsillitisHair loss (includes female and male pattern baldness)Dry eye syndrome
+hu3A8D13		
+huBAAC98	Massachusetts	"OsteoarthritisCarpal tunnel syndromeAsthmaAcne"Myopia (Nearsightedness)
+huD09534	Virginia	"Deviated septumEczemaAstigmatism
+hu82436A	Maryland	
+hu599905	New	"Deviated septum"Deviated septum"Dandruff"Pilonidal cyst"Age-related cataract"Infantile
+huCCAFD0	Massachusetts	"DandruffAstigmatism
+hu68929D		
+hu76CAA5	California	"Deviated septumPsoriasis"Central serous retinopathy
+huF5E0B6		
+huC3160A	Illinois	"Allergic rhinitis"EczemaAstigmatism
+huAFA81C	New	
+hu448C4B	California	Skin tags"Myopia (Nearsightedness)
+hu4BF398	Kansas	"Allergic rhinitis"Dandruff"Age-related cataract
+hu241DEA		
+huBA30D4	Tennessee	"Dental cavitiesHigh cholesterol (hypercholesterolemia)Urinary tract infection (UTI)"OsteoarthritisEssential tremor"Deviated septum"Dandruff"Age-related cataract
+huEC6EEC	California	
+huE58004	Vermont	Carpal tunnel syndromeAllergic rhinitis"DandruffMyopia (Nearsightedness)
+hu132B5C	Washington	
+huEDF7DA	Maryland	"Dental cavities"Lactose intoleranceOvarian cysts"Rheumatoid arthritisMigraine with auraChronic tonsillitisAcne"Myopia (Nearsightedness)
+huDBF9DD	Georgia	"Eczema"Myopia (Nearsightedness)
+hu0D879F		Hair loss (includes female and male pattern baldness)"Hyperopia (Farsightedness)
+hu1378E3	Virginia	Asthma"Dandruff"Myopia (Nearsightedness)
+huEA4EE5	Maryland	Rosacea"DandruffColor blindness
+huC93106	Massachusetts	"Chronic tonsillitis"EczemaHyperopia (Farsightedness)
+huDF04CC	Texas	"Myopia (Nearsightedness)"Myopia (Nearsightedness)
+huFFB09D	California	Myopia (Nearsightedness)
+huAEC1B0	California	"Hair loss (includes female and male pattern baldness)Myopia (Nearsightedness)
+hu60AB7C	New	"Chronic sinusitis"Dandruff"Hyperopia (Farsightedness)
+hu44DCFF	Massachusetts	"Myopia (Nearsightedness)
+hu687B6B	Connecticut	"Pilonidal cyst"Glaucoma"Glaucoma
+hu0D1FA1	Connecticut	"Deviated septumSkin tagsMyopia (Nearsightedness)
+huD103CC	California	
+huC5733C	New	"Dandruff"Myopia (Nearsightedness)
+hu4B0812	Massachusetts	"Allergic rhinitisEczema"Myopia (Nearsightedness)
+hu05FD49	New	Allergic rhinitis"Dandruff"Hyperopia (Farsightedness)
+hu032C04	Pennsylvania	"Nasal polyps"DandruffMyopia (Nearsightedness)"Age-related macular degeneration
+huA0E089	Massachusetts	"Age-related cataract
+huAEADC0	Massachusetts	Migraine without auraAllergic rhinitis"Allergic contact dermatitis"Myopia (Nearsightedness)
+huAE4A11		Eczema"Myopia (Nearsightedness)
+hu7123C1	Maryland	DandruffAge-related hearing loss
+huE9B698	New	"Allergic contact dermatitis"Allergic contact dermatitis"Myopia (Nearsightedness)
+huDE435D	Massachusetts	
+hu025CEA	Massachusetts	Myopia (Nearsightedness)
+hu1187FF	Arkansas	"DandruffRosacea"Age-related cataract"Age-related cataract
+hu040C0A		
+hu661AD0	Puerto	"Myopia (Nearsightedness)
+hu3073E3		"Deviated septum"Eczema"Age-related cataract
+hu72C17A	New	"Hair loss (includes female and male pattern baldness)"Myopia (Nearsightedness)
+hu2D6140	California	"Impacted tooth"High cholesterol (hypercholesterolemia)Urinary tract infection (UTI)Rotator cuff tear"Rosacea"Age-related cataract
+hu3F864B	New	Chronic tonsillitis"Rosacea"Myopia (Nearsightedness)
+hu5FB1B9	California	"Dandruff
+huC92BC9	New	
+hu3A1B15		"Myopia (Nearsightedness)
+hu3C0611	Massachusetts	Dental cavitiesDental cavities"Thyroid nodule(s)"Kidney stones"Bunions"Migraine without aura"Chronic tonsillitis"EczemaFloatersFloaters
+hu0CF2EE	Minnesota	"Psoriasis"Astigmatism
+hu48C4EB	New	"Dandruff"Myopia (Nearsightedness)
+hu5E55F5	Oregon	"Dental cavitiesHypothyroidism"Urinary tract infection (UTI)"OsteoarthritisRestless legs syndrome"Allergic rhinitis"Eczema"Glaucoma
+hu42D651	Rhode	
+huB4D223	New	
+huD37D14	California	"Fibrocystic breast disease"Sjogren's syndrome (Sicca syndrome)"Chronic tension headaches (15+ days per month"Allergic rhinitis"Dandruff"Myopia (Nearsightedness)
+hu034DB1	Colorado	"Urinary tract infection (UTI)"SciaticaCarpal tunnel syndromeAsthma"Eczema"Hyperopia (Farsightedness)
+hu27FD1F	California	AsthmaAcneSensorineural hearing loss or congenital deafness"Age-related cataract
+hu92FD55	Washington	Myopia (Nearsightedness)
+hu2FEC01	Michigan	Migraine with auraAsthma"Dandruff"Myopia (Nearsightedness)
+huD81F3D	California	"Deviated septum"Dandruff"Myopia (Nearsightedness)
+huFCC1C1		
+hu775356	Oregon	"Chronic tonsillitis"Hair loss (includes female and male pattern baldness)Tinnitus
+hu57A769	California	
+hu589D0B	West	"EczemaMyopia (Nearsightedness)
+huBE0B25	Georgia	Dandruff"Color blindness
+hu71E59D		
+hu5FA322	New	"Dental cavities"Dental cavities"Hypothyroidism"Hypothyroidism"Kidney stones"Kidney stones"Lupus"Osteoarthritis"Essential tremor"Essential tremorChronic sinusitis"Skin tagsCafe au lait spots"Age-related cataract"Age-related cataract
+hu6C733E	Missouri	Cafe au lait spotsMyopia (Nearsightedness)Myopia (Nearsightedness)
+hu7A4AD1	Delaware	"Cluster headaches"Chronic sinusitis"Allergic contact dermatitis"Myopia (Nearsightedness)
+huD3A569	California	Deviated septum"Dandruff"Hyperopia (Farsightedness)
+hu92C40A	Arizona	Breast cancer"HypertensionCongenital heart defect"Dental cavitiesHigh cholesterol (hypercholesterolemia)"Urinary tract infection (UTI)"OsteoarthritisRestless legs syndromeAsthmaAcne"Age-related cataract
+hu470099	California	
+hu88A079		
+hu955EE1	Virginia	"Deviated septum"Skin tags"Myopia (Nearsightedness)
+huDBD591	Missouri	DandruffMyopia (Nearsightedness)
+huCD380F	Idaho	"Hair loss (includes female and male pattern baldness)"Myopia (Nearsightedness)
