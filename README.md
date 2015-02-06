@@ -4,6 +4,8 @@ PGP info
 This program is to extract specified information from HTML files which are dowloaded from 
 Personal Genome Project (http://www.personalgenomes.org).
 
+Our goal is to collect and transfer all semi-structured data in PGP to easy-to-read text file so that the data can be exploited by R and other programs.
+
 Tools
 -----
 
@@ -50,13 +52,6 @@ Files
 
 Design
 ------
-* regular expression is powerful but tedious
-* R is powerful but ...
+* Regular expression is powerful but tedious
+* R is powerful but overkill
 * Bash & Python are combined to make job easy
-
-
-
-
-
-
-

@@ -1,6 +1,11 @@
 #!/bin/bash
+DOWNLOAD_DIR="."
+# html -> xml
+pre_processing() {
+  for f in $(ls ${DOWNLOAD_DIR}/*.html)
+  do
+    tidy -asxml $f > ${f}.xml
+  done
+}
 
-a=0
-ret=$(read a)
-
-echo $a
+pre_processing
