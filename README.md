@@ -55,3 +55,10 @@ Design
 * Regular expression is powerful but tedious
 * R is powerful but overkill
 * Bash & Python are combined to make job easy
+
+TODO
+----
+* remove quotes from the diseases
+* extract key words from diseases string
+* sort the diseases by frequency
+* separate disease by comma
