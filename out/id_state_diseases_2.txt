@@ -1,0 +1,174 @@
+hu64DBF7	CA	Myopia (Nearsightedness),Astigmatism,Floaters,
+hu2DBF2D	MI	Myopia (Nearsightedness),Astigmatism,
+huE2E371	CA	Astigmatism,Age-related hearing loss,
+hu7B594C	MA	
+huD52556	MA	Myopia (Nearsightedness),Presbyopia,
+huC14AE1	MN	Myopia (Nearsightedness),Astigmatism,
+huED0F40	VA	Myopia (Nearsightedness),Astigmatism,Left Eye,mild patches of lattice without holes; two-disc diameter nevus superiorally left eye,
+hu4BE6F2	NC	Myopia (Nearsightedness),Astigmatism,
+hu26B551	OR	Myopia (Nearsightedness),Age-related hearing loss,I began losing hearing in my late teens and most of my family members had hearing loss by middle age,with moderate to severe hearing loss in old age.,
+hu627574	CA	Hyperopia (Farsightedness),Myopia (Nearsightedness),Astigmatism,
+hu67EBB3		
+hu704A85		
+hu016B28	NH	Myopia (Nearsightedness),Presbyopia,
+huFA70A3		
+huA02824		
+hu82E689	FL	Myopia (Nearsightedness),Color blindness,
+hu2843C9	OH	Myopia (Nearsightedness),Dry eye syndrome,Floaters,
+hu7852C5	OH	Astigmatism,
+hu8E2A35	CA	Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,
+huC29627	MI	Astigmatism,
+hu72A81D		
+hu19C09F	MO	Myopia (Nearsightedness),
+hu0E64A1	NY	Myopia (Nearsightedness),Astigmatism,
+huB1FD55	CA	Hyperopia (Farsightedness),Myopia (Nearsightedness),Astigmatism,
+hu7DCBF9	LA	Myopia (Nearsightedness),Astigmatism,
+hu2C1D94	OK	
+hu619F51	MO	Floaters,retinal vein occlusion,
+huFFAD87		
+huF80F84	MA	Myopia (Nearsightedness),
+hu868880	CA	Myopia (Nearsightedness),Astigmatism,Tinnitus,Have also been diagnosed with vestibular disorder similar to Meniere but with perfect hearing (also no hearing loss with tinnitus),
+huBEDA0B	NY	Presbyopia,Floaters,
+hu5B8771		Huntington's disease,
+hu60180F	WI	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Presbyopia,Dry eye syndrome,Floaters,Age-related hearing loss,
+huA05317	MA	Myopia (Nearsightedness),
+huD9EE1E		
+hu0211D6	TX	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Floaters,
+huB4883B	CA	Hyperopia (Farsightedness),Astigmatism,Floaters,Age-related hearing loss,
+hu15FECA	NY	
+hu939B7C	MA	
+hu52F345	MA	
+hu04DF3C		Age-related hearing loss,
+hu79F922	NY	Age-related cataract,Presbyopia,Floaters,Tinnitus,
+hu089792	MI	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,
+hu5CD2C6	MA	Myopia (Nearsightedness),Astigmatism,Presbyopia,optic nerve drusen,
+huA4E2CF	MN	Tinnitus,
+hu8229AE	MN	Myopia (Nearsightedness),Astigmatism,
+hu33E2D9	NC	
+huF2DA6F		
+hu6E4515	MA	Glaucoma,Age-related cataract,Dry eye syndrome,Floaters,Age-related hearing loss,
+hu050E9C	PA	Retinal detachment,Astigmatism,Presbyopia,Floaters,Age-related hearing loss,
+hu4CA5B9	MA	
+hu4339C0		
+hu553620	TN	Myopia (Nearsightedness),Floaters,
+hu342A08		
+hu8073B9		
+huFAF983		
+huCA14D2	CA	
+huD10E53		
+hu4040B8	CA	Myopia (Nearsightedness),Tinnitus,
+hu620F18	HI	Myopia (Nearsightedness),Astigmatism,Floaters,
+huAA245C	TN	Myopia (Nearsightedness),Astigmatism,Dry eye syndrome,
+huC434ED	MA	
+hu38168C		
+hu8F918A		
+hu04F220	NY	Myopia (Nearsightedness),Astigmatism,Strabismus,
+huA4F281	SC	Myopia (Nearsightedness),
+hu34D5B9	MA	Myopia (Nearsightedness),Astigmatism,
+hu011C57	NM	Myopia (Nearsightedness),Presbyopia,
+hu7A2F1D	MD	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Floaters,Meniere's disease,Tinnitus,Partial retinal detachment,
+huEDEA65	NY	Myopia (Nearsightedness),
+huB4F9B2		Floaters,none,
+hu602487	OR	Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,
+huFE71F3	WI	Hyperopia (Farsightedness),Astigmatism,Age-related hearing loss,
+hu259AC7		
+huA49E22	NJ	
+hu1904EC		
+huCA017E		
+hu8E87A9	MA	
+huB4940E	MN	Hyperopia (Farsightedness),
+hu5FCE15	NY	Myopia (Nearsightedness),Astigmatism,
+huF5AD12		Hyperopia (Farsightedness),Myopia (Nearsightedness),
+hu3CAB43	GA	Myopia (Nearsightedness),Floaters,
+hu432EB5	CT	Myopia (Nearsightedness),Floaters,
+hu24C863	NY	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,Age-related hearing loss,
+hu0A4518		
+huEBD467	NY	Myopia (Nearsightedness),Astigmatism,Floaters,Tinnitus,
+hu52B7E5	MA	Myopia (Nearsightedness),Dry eye syndrome,
+hu63EB0A	GA	Retinal detachment,Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,
+hu90B053	MA	
+hu297562	MA	Myopia (Nearsightedness),
+huF1DC30		Myopia (Nearsightedness),Astigmatism,
+hu4FE0D1	ID	Myopia (Nearsightedness),
+hu1F73AB	CA	Dry eye syndrome,
+hu3A8D13		
+huBAAC98	MA	Myopia (Nearsightedness),Astigmatism,
+huD09534	VA	Astigmatism,
+hu82436A	MD	
+hu599905	NY	Infantile,juvenile,and presenile cataract,Myopia (Nearsightedness),Astigmatism,Presbyopia,Dry eye syndrome,Tinnitus,
+huCCAFD0	MA	Astigmatism,I wear transitioned bifocals,
+hu68929D		
+hu76CAA5	CA	Central serous retinopathy,Presbyopia,
+huF5E0B6		
+huC3160A	IL	Astigmatism,
+huAFA81C	NY	
+hu448C4B	CA	Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,Age-related hearing loss,
+hu4BF398	KS	Age-related cataract,Floaters,Tinnitus,
+hu241DEA		
+huBA30D4	TN	Age-related cataract,Hyperopia (Farsightedness),Myopia (Nearsightedness),Presbyopia,Floaters,
+huEC6EEC	CA	
+huE58004	VT	Myopia (Nearsightedness),
+hu132B5C	WA	
+huEDF7DA	MD	Myopia (Nearsightedness),Floaters,
+huDBF9DD	GA	Myopia (Nearsightedness),Astigmatism,
+hu0D879F		Hyperopia (Farsightedness),Myopia (Nearsightedness),Astigmatism,
+hu1378E3	VA	Myopia (Nearsightedness),Astigmatism,Floaters,
+huEA4EE5	MD	Color blindness,
+huC93106	MA	Hyperopia (Farsightedness),
+huDF04CC	TX	Myopia (Nearsightedness),Astigmatism,Floaters,vitreous detachment,
+huFFB09D	CA	Myopia (Nearsightedness),
+huAEC1B0	CA	Myopia (Nearsightedness),
+hu60AB7C	NY	Hyperopia (Farsightedness),Myopia (Nearsightedness),Astigmatism,Dry eye syndrome,Floaters,For all of my life there has always been a mild backgroud hissing in my ears.,
+hu44DCFF	MA	Myopia (Nearsightedness),Astigmatism,
+hu687B6B	CT	Glaucoma,Age-related cataract,Presbyopia,
+hu0D1FA1	CT	Myopia (Nearsightedness),
+huD103CC	CA	
+huC5733C	NY	Myopia (Nearsightedness),Age-related hearing loss,
+hu4B0812	MA	Myopia (Nearsightedness),Astigmatism,Tinnitus,
+hu05FD49	NY	Hyperopia (Farsightedness),Astigmatism,Presbyopia,Tinnitus,
+hu032C04	PA	Age-related macular degeneration,Myopia (Nearsightedness),Age-related hearing loss,Sensorineural hearing loss or congenital deafness,
+huA0E089	MA	Age-related cataract,Astigmatism,muscular dystrophy (FSHMD) related hearing loss,
+huAEADC0	MA	Myopia (Nearsightedness),Floaters,Age-related hearing loss,
+huAE4A11		Myopia (Nearsightedness),Astigmatism,Floaters,
+hu7123C1	MD	Age-related hearing loss,Presbyopia,
+huE9B698	NY	Myopia (Nearsightedness),Floaters,
+huDE435D	MA	
+hu025CEA	MA	Myopia (Nearsightedness),
+hu1187FF	AR	Age-related cataract,Presbyopia,Strabismus,Tinnitus,Sensorineural hearing loss or congenital deafness,acquired 4th nerve palsy with normal MRI,
+hu040C0A		
+hu661AD0	PR	Myopia (Nearsightedness),Astigmatism,
+hu3073E3		Age-related cataract,Myopia (Nearsightedness),Presbyopia,Floaters,
+hu72C17A	NY	Myopia (Nearsightedness),Color blindness,Floaters,
+hu2D6140	CA	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Dry eye syndrome,Age-related hearing loss,
+hu3F864B	NY	Myopia (Nearsightedness),Astigmatism,Floaters,
+hu5FB1B9	CA	Dandruff,Acne,
+huC92BC9	NH	
+hu3A1B15		Myopia (Nearsightedness),Dry eye syndrome,
+hu3C0611	MA	Floaters,
+hu0CF2EE	MN	Astigmatism,Tinnitus,
+hu48C4EB	NJ	Myopia (Nearsightedness),Dry eye syndrome,Uveitis,
+hu5E55F5	OR	Glaucoma,Age-related cataract,Traumatic cataract,Myopia (Nearsightedness),Astigmatism,Presbyopia,Floaters,Tinnitus,
+hu42D651	RI	
+huB4D223	NM	
+huD37D14	CA	Myopia (Nearsightedness),Astigmatism,Dry eye syndrome,Occular Migraines,
+hu034DB1	CO	Hyperopia (Farsightedness),Myopia (Nearsightedness),Astigmatism,Floaters,Color blind carrier,benign positional vertigo,
+hu27FD1F	CA	Age-related cataract,Myopia (Nearsightedness),Sensorineural hearing loss or congenital deafness,
+hu92FD55	WA	Myopia (Nearsightedness),
+hu2FEC01	MI	Myopia (Nearsightedness),Astigmatism,Color blindness,
+huD81F3D	CA	Myopia (Nearsightedness),Astigmatism,Age-related hearing loss,
+huFCC1C1		
+hu775356	OR	Tinnitus,
+hu57A769	CA	
+hu589D0B	WV	Myopia (Nearsightedness),
+huBE0B25	GA	Color blindness,Floaters,
+hu71E59D		
+hu5FA322	NY	Age-related cataract,Hyperopia (Farsightedness),Floaters,Age-related hearing loss,
+hu6C733E	MO	Myopia (Nearsightedness),
+hu7A4AD1	DE	Myopia (Nearsightedness),Astigmatism,
+huD3A569	CA	Hyperopia (Farsightedness),Myopia (Nearsightedness),
+hu92C40A	AZ	Age-related cataract,Myopia (Nearsightedness),Astigmatism,Floaters,
+hu470099	CA	
+hu88A079		
+hu955EE1	VA	Myopia (Nearsightedness),Astigmatism,Floaters,
+huDBD591	MO	Myopia (Nearsightedness),
+huCD380F	ID	Myopia (Nearsightedness),Astigmatism,Dry eye syndrome,

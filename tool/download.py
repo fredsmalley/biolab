@@ -32,7 +32,6 @@ root_tag = root.tag.strip("html")
 
 for tr in root.iter(root_tag+'tr'):
     if tr.get('data-participant-id') != '': # find each participant becuase each has id
-        #print tr.get('data-participant-id')
         for td in tr.iter(root_tag+'td'):
             # get participant id
             p_id = ""
@@ -40,10 +39,10 @@ for tr in root.iter(root_tag+'tr'):
                 p_id = td.find(root_tag+'a').text
                 p_url = pgp_url+td.find(root_tag+'a').get('href')
                 print "Downloading " + p_url
-                #remote_profile = urllib2.urlopen(p_url)
-                #profile = open(profile_dir+p_id+".html", 'w')
-                #profile.write(remote_profile.read())
-                #profile.close()
+                remote_profile = urllib2.urlopen(p_url)
+                profile = open(profile_dir+p_id+".html", 'w')
+                profile.write(remote_profile.read())
+                profile.close()
             # time & data name
             elif td.get('data-summarize-as') == "list-distinct":
                 print td.text
