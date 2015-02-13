@@ -65,3 +65,4 @@ TODO
 * <s> merge key data into a single table </s>
 * merge all data into a single table
 * data collect automation
+* data visualization automation
