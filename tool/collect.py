@@ -4,8 +4,9 @@ import glob
 #configuration
 id_file = "../in/participants.tsv"
 id_state_file = "../out/id_state_0.txt"
-id_state_dieases = "../out/id_state_diseases_1.txt"
+id_state_dieases = "../out/id_state_diseases_2.txt"
 disease_file_dir = "../in/DiseaseSurvey/"
+state_name = "../in/states"
 
 #participants' key
 state = "state"
@@ -26,25 +27,41 @@ with open(id_file, 'r') as f:
 
 # add state information from 
 with open(id_state_file) as f:
+    #read state abbreviations
+    state_abbreviation = {}
+    with open(state_name) as s:
+        for line in s.readlines():
+            state_name_map = line.strip("\n").split(':')
+            state_abbreviation[state_name_map[0]] = state_name_map[1]
+            #print line[0] + "--> " + line[1]
+
+    
     for line in f.readlines():
-        l = line.split()
-        if len(l) > 1:
-          participants[l[0]][state] = l[1]
+        l = line.strip("\n").split('\t')
+        if len(l) > 1 and l[1] != '':
+          participants[l[0]][state] = state_abbreviation[l[1]]
         else:
           participants[l[0]][state] = ""
         #print participants[l[0]]["state"]
 
 
 # read diseases survery file
-
 for disease_file in glob.glob(disease_file_dir+"*DiseaseSurvey*.csv"):
-    print disease_file
+    #print disease_file
     with open(disease_file, 'r') as f:
         for line in f.readlines():
-            participant = line.split(',')
+            # line format in DiseaseSurvey:
+            # id, data time, xxxx, diseases
+            participant = line.strip(",\n").split(',')
             if participant[0] in participants:
-                if len(participant[3]) > 0:
-                    participants[participant[0]][diseases] = participants[participant[0]][diseases]+participant[3]
+                if len(participant) > 3:
+                    all_diseases = []
+                    for d in participant[3:]:
+                        if d != '':
+                            all_diseases.append(d.strip("\" "))
+                    #print all_diseases
+                    participants[participant[0]][diseases] = all_diseases
+                # no content
                 else:
                     participants[participant[0]][diseases] = "" 
 
@@ -53,4 +70,9 @@ for disease_file in glob.glob(disease_file_dir+"*DiseaseSurvey*.csv"):
 with open(id_state_dieases, 'w') as f:
     for (id, dic) in participants.iteritems():
         if diseases in dic:
-            f.write("%s\t%s\t%s\n" % (id, dic[state], dic[diseases]));
+            f.write("%s\t%s\t" % (id, dic[state]))
+            for d in dic[diseases]:
+                f.write("%s," % d)
+            f.write("\n")
+        else:
+            f.write("%s\t%s\t%s\n" % (id, dic[state], None))
