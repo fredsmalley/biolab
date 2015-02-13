@@ -64,3 +64,4 @@ TODO
 * <s> download all data files by Python script </s>
 * <s> merge key data into a single table </s>
 * merge all data into a single table
+* data collect automation
