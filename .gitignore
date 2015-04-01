@@ -31,5 +31,5 @@
 *.swp
 
 # Custom files
-.DS_Store
-in/.DS_store
+bin/*
+*.DS_store
