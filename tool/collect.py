@@ -4,7 +4,7 @@ import glob
 #configuration
 id_file = "../in/participants.tsv"
 id_state_file = "../out/id_state_0.txt"
-id_state_dieases = "../out/id_state_diseases_2.txt"
+id_diseases = "../out/id_diseases.tsv"
 disease_file_dir = "../in/DiseaseSurvey/"
 state_name = "../in/states"
 
@@ -46,8 +46,9 @@ with open(id_state_file) as f:
 
 
 # read diseases survery file
-for disease_file in glob.glob(disease_file_dir+"*DiseaseSurvey*.csv"):
+#for disease_file in glob.glob(disease_file_dir+"*DiseaseSurvey*.csv"):
     #print disease_file
+    disease_file = disease_file_dir+"PGPTrait&DiseaseSurvey2012_Cancers-20150206200050.csv"
     with open(disease_file, 'r') as f:
         for line in f.readlines():
             # line format in DiseaseSurvey:
@@ -67,12 +68,12 @@ for disease_file in glob.glob(disease_file_dir+"*DiseaseSurvey*.csv"):
 
 
 # output file
-with open(id_state_dieases, 'w') as f:
+with open(id_diseases, 'w') as f:
     for (id, dic) in participants.iteritems():
         if diseases in dic:
-            f.write("%s\t%s\t" % (id, dic[state]))
+            f.write("%s\t" % (id))
             for d in dic[diseases]:
                 f.write("%s," % d)
             f.write("\n")
         else:
-            f.write("%s\t%s\t%s\n" % (id, dic[state], None))
+            f.write("%s\t%s\n" % (id, None))
