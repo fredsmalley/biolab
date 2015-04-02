@@ -4,7 +4,7 @@ import glob
 #configuration
 id_file = "../in/participants.tsv"
 id_state_file = "../out/id_state_0.txt"
-id_diseases = "../out/id_diseases.tsv"
+id_state_diseases = "../out/id_state_diseases.tsv"
 disease_file_dir = "../in/DiseaseSurvey/"
 state_name = "../in/states"
 
@@ -68,12 +68,12 @@ with open(id_state_file) as f:
 
 
 # output file
-with open(id_diseases, 'w') as f:
+with open(id_state_diseases, 'w') as f:
     for (id, dic) in participants.iteritems():
         if diseases in dic:
-            f.write("%s\t" % (id))
+            f.write("%s\t%s\t" % (id, dic[state]))
             for d in dic[diseases]:
                 f.write("%s," % d)
             f.write("\n")
         else:
-            f.write("%s\t%s\n" % (id, None))
+            f.write("%s\t%s\t%s\n" % (id, dic[state], None))
