@@ -33,3 +33,4 @@
 # Custom files
 bin/*
 *.DS_store
+tool/cancers
