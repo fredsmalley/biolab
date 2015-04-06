@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Personal Genome Project: hu79E3C7</title>
+    <link href="/stylesheets/../bootstrap/css/bootstrap.min.css?1425583058" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/bootstrap_datatables.css?1425583133" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/redmond/jquery-ui-1.8.11.custom.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/ui.slider.extras.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/dataTables/css/demo_table_jui.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/tapestry_default.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/plate_layout.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css?1425583133" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lte IE 7]><link href="/stylesheets/tapestry_default-ie.css?1425583133" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <script src="/javascripts/jquery-1.7.2.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery-ui-1.8.11.custom.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery.dataTables.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery-custom-extensions.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/rails.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/application.js?1425583133" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sSortAsc": "header headerSortDown",
+        "sSortDesc": "header headerSortUp",
+        "sSortable": "header"
+    } );
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sWrapper": "dataTables_wrapper form-inline"
+    } );
+    jQuery(document).ready(function() {
+      jQuery('button,input[type=submit]').addClass('btn');
+      jQuery('.nav .dropdown li a[title]').tooltip({animation:false,placement:'right',container:'body'});
+    });
+
+//]]>
+</script>  <script src="/javascripts/datatables_bootstrap_paging.js?1425583133" type="text/javascript"></script>
+  <script src="/javascripts/bootstrap_mods.js?1425583133" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    
+
+//]]>
+</script>  
+  <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="4dhZmOYM+29VSOYPZprmH4b7u&#47;oz5iFkjFkBFTYLPYE="/>
+</head>
+<body>
+
+  
+
+  <div id="body">
+
+    <h1 class="verbose"><a href="https://my.pgp-hms.org/"><span>Personal Genome Project</span></a></h1>
+
+    
+      <a href="https://my.pgp-hms.org/login" class="btn btn-large btn-warning pull-right" style="margin-top: -78px; margin-right: 12px; text-decoration: none; color: #fff">Log in &nbsp;<i class="icon icon-white icon-play"></i></a>
+
+<div class="container">
+  <div class="navbar"><div class="navbar-inner">
+    <ul class="nav">
+
+
+
+
+
+        <li class="dropdown">
+          <a href="/public_genetic_data" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-public-data" role="button">Public data <b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-public-data">
+            <li><a href="/users" title="4229 participant profiles">Participants</a></li>
+              <li><a href="/google_surveys" title="13 surveys taken by 2667 participants">Participant surveys</a></li>
+              <li><a href="/specimens" title="4149 blood, saliva, or other tissue samples">Tissue samples</a></li>
+            <li><a href="/public_genetic_data" title="607 whole genome sequences and 1137 other genetic datasets">Whole genome sequences and other data</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="/public_genetic_data/statistics">Genetic data publication statistics</a></li>
+          </ul>
+        </li>
+
+      <li class="dropdown">
+        <a href="http://personalgenomes.org" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-about-us" role="button">About <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-about-us">
+          <li><a href="http://personalgenomes.org"><u>PersonalGenomes.org Website</u></a></li>
+          <li><a href="http://blog.personalgenomes.org"><u>PGP Blog</u></a></li>
+          <li><a href="https://twitter.com/@PGorg"><u>@PGorg on Twitter</u></a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+    <ul class="nav pull-right">
+    </ul>
+  </div></div>
+</div>
+
+
+    <div class="clear"><!-- --></div>
+
+    
+    <div class="main">
+      <div id="flash">
+</div>
+      
+<h2>Public Profile -- hu79E3C7</h2>
+
+<div align="right">Public profile url: <a href="/profile/hu79E3C7">https://my.pgp-hms.org/profile/hu79E3C7</a></div>
+
+
+
+  <h3>
+    Personal Health Records
+  </h3>
+    <div class="admin_table">
+      <!-- Begin PHR -->
+<style type="text/css">    
+  .phr table { width: 100%; padding: 0px; margin: 2px 0px; border-collapse: collapse}
+  .phr .demographics th { width: 100px; }
+  .phr th.dosage { width: 175px; }
+  .phr th.frequency { width: 175px; }
+  .phr th.date { width: 100px; }
+  .phr td, .phr th { border: 1px solid #ccc; padding-left: 2px}
+  .phr th { background-color: #eee }
+  .phr th { text-align: left; vertical-align: top}
+  .phr td { text-align: left; vertical-align: top }
+  .phr td.hover { background-color: #C7D1E7 }    
+</style>
+
+<div class="phr"> 
+
+<h3>Demographic Information</h3> 
+<table class="demographics"> 
+  <tr><th>Date of Birth</th><td>1972-01-07 (43 years old)</td></tr> 
+  <tr><th>Gender</th><td></td></tr> 
+  <tr><th>Weight</th><td>180lbs (82kg)</td></tr> 
+  <tr><th>Height</th><td>5ft 11in (180cm)</td></tr> 
+  <tr><th>Blood Type</th><td></td></tr> 
+  <tr><th>Race</th><td></td></tr> 
+</table>
+
+<h3>Conditions</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr>
+  <td>Attention Deficit Disorder</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Bipolar Disorder</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Gastroesophageal reflux disease</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>HYPERCHOLESTEROLEMIA</td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+
+<h3>Medications
+</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="dosage">Dosage</th>
+  <th class="frequency">Frequency</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr >
+  <td>Prevacid, 15 mg oral delayed release capsule</td>
+  <td>15 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr >
+  <td>Co-Q10</td>
+  <td>400 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr >
+  <td>escitalopram</td>
+  <td>20 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr >
+  <td>lamotrigine Oral Tablet</td>
+  <td>200 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr >
+  <td>atorvastatin 40 MG Oral Tablet</td>
+  <td>40 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr >
+  <td>Vyvanse, 60 mg oral capsule</td>
+  <td>60 Milligram (mg)</td>
+  <td>Take 1, Once daily</td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+<h3>Allergies</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="severity">Reaction/Severity</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr>
+  <td>dust mite chiten</td>
+  <td>sneezing</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>cat dander</td>
+  <td>hives (red, raised, itchy bumps)</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Allergy to pollen</td>
+  <td>itchy, watery eyes</td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+<h3>Procedures</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+<h3>Test Results</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="result">Result</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+<h3>Immunizations</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+<tr>
+  <td>Influenza Vaccine</td>
+  <td>2013-10-31</td>
+</tr>
+<tr>
+  <td>Influenza Vaccine</td>
+  <td>2013-01-09</td>
+</tr>
+<tr>
+  <td>Tetanus, diphtheria, pertussis vaccine (Tdap)</td>
+  <td>2013-01-09</td>
+</tr>
+<tr>
+  <td>Influenza Vaccine</td>
+  <td>2011-01-06</td>
+</tr>
+</table>
+
+</div>
+<p><em>Updated: 2013-12-09T15:51:01.12949</em></p>
+<script type="text/javascript"> 
+  $(".phr tr").hover(
+  function() {
+  $("td", this).addClass("hover");
+  },
+  function() {
+  $("td", this).removeClass("hover");
+  });
+</script>
+<!-- End PHR -->
+
+    </div>
+
+  <a name="samples"></a>
+
+  <h3>Samples</h3>
+
+    None available.
+
+
+<h3>Uploaded data </h3>
+
+<div class="profile-data">
+  <table>
+    <thead>
+      <tr>
+	<th style="width:20px" class="collection-column"></th>
+	<th style="width:auto">Date</th>
+	<th style="width:auto">Data type</th>
+	<th style="width:auto">Source</th>
+	<th>Name</th>
+	<th>Download</th>
+	<th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr data-file-row data-participant-id="9716" data-locator="ecd3205dbd239634f93c45fede3470ae+92+K@ant" data-index-in-manifest="" data-file-size="24756407">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2013-12-09
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">23andMe</td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">My sequence</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1013" rel="nofollow">Download</a>
+	<br />(23.6 MB)
+      </td>
+      <td data-summarize-as="none">
+	<a href="http://evidence.pgp-hms.org/genomes?display_genome_id=48c5909153ac932e4fc35f03b7a4d2342a70109c&amp;access_token=1b6e9a4710ef17fb0f58123bb2af9ded">View&nbsp;report</a>
+
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<h3>
+  Geographic Information
+</h3>
+
+
+<table class="admin_table">
+<tr><td>State:</td><td>Washington</td></tr>
+</table>
+
+
+<h3>Family Members Enrolled </h3>
+None added.
+
+  <h3>Surveys</h3>
+    None completed.
+
+<h3>Absolute Pitch Survey
+</h3>
+
+  Survey not taken.
+
+<h3>Enrollment History</h3>
+
+<table class="admin_table">
+<tr><td>Participant ID:</td><td>hu79E3C7</td></tr>
+<tr><td>Account created:</td><td>2013-12-09 19:34:56 UTC</td></tr>
+<tr><td>Eligibility screening:</td><td>2013-12-09 19:38:26 UTC (passed v2)</td></tr>
+<tr><td>Exam:</td><td>2013-12-09 20:35:51 UTC (passed v20120430)</td></tr>
+<tr><td>Consent:</td><td>2014-02-26 03:36:21 UTC (passed v20140218)</td></tr>
+<tr><td>Enrolled:</td><td>2013-12-09 21:27:26 UTC</td></tr>
+</table>
+ 
+
+
+
+
+
+    </div>
+
+    <div class="sidebar">
+      
+    </div>
+
+
+    <div class="clear"><!-- --></div>
+  </div>
+
+  <div id="foot">
+    <div id="privacy_tos">
+      <span>
+        <a href="/pages/sitemap">Site map</a>
+      </span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/privacypolicy.html">Privacy Policy</a></span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/tos.html">Terms of Use</a></span>
+    </div>
+    <div id="copyright">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" style="text-decoration:none;">
+          <img src="https://i.creativecommons.org/l/zero/1.0/88x31.png" border="0" alt="CC0" />
+        </a>
+        <br />
+        <br />
+        <font color="white">
+        To the extent possible under law, <a href="http://www.personalgenomes.org" rel="dct:publisher" style="color:white"><span property="dct:title">PersonalGenomes.org</span></a>
+        has waived all copyright and related or neighboring rights to
+        <span property="dct:title">Personal Genome Project Participant Genetic and Trait Dataset</span>.
+        This work is published from
+        <span about="www.personalgenomes.org" property="vcard:Country" datatype="dct:ISO3166" content="US">United States</span>.
+        </font>
+      </p>
+    </div>
+  </div>
+
+  <div id="jstemplates">
+    
+  </div>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-51513-4");
+pageTracker._trackPageview();
+</script>
+
+  <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = "https://analytics.freelogy.org/piwik/";
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="https://analytics.freelogy.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+    <script src="/javascripts/../bootstrap/js/bootstrap.js?1425583058" type="text/javascript"></script>
+
+</body>
+</html>

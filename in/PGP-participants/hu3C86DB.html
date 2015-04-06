@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Personal Genome Project: hu3C86DB</title>
+    <link href="/stylesheets/../bootstrap/css/bootstrap.min.css?1425583058" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/bootstrap_datatables.css?1425583133" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/redmond/jquery-ui-1.8.11.custom.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/ui.slider.extras.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/dataTables/css/demo_table_jui.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/tapestry_default.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/plate_layout.css?1425583133" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css?1425583133" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lte IE 7]><link href="/stylesheets/tapestry_default-ie.css?1425583133" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <script src="/javascripts/jquery-1.7.2.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery-ui-1.8.11.custom.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery.dataTables.min.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/jquery-custom-extensions.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/rails.js?1425583133" type="text/javascript"></script>
+<script src="/javascripts/application.js?1425583133" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sSortAsc": "header headerSortDown",
+        "sSortDesc": "header headerSortUp",
+        "sSortable": "header"
+    } );
+    $.extend( $.fn.dataTableExt.oStdClasses, {
+        "sWrapper": "dataTables_wrapper form-inline"
+    } );
+    jQuery(document).ready(function() {
+      jQuery('button,input[type=submit]').addClass('btn');
+      jQuery('.nav .dropdown li a[title]').tooltip({animation:false,placement:'right',container:'body'});
+    });
+
+//]]>
+</script>  <script src="/javascripts/datatables_bootstrap_paging.js?1425583133" type="text/javascript"></script>
+  <script src="/javascripts/bootstrap_mods.js?1425583133" type="text/javascript"></script>
+
+  <script type="text/javascript">
+//<![CDATA[
+
+    
+
+//]]>
+</script>  
+  <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="xvtSMeyM+3J+AvHocUod4NvOpr+4rLrShA&#47;I9iiSfxU="/>
+</head>
+<body>
+
+  
+
+  <div id="body">
+
+    <h1 class="verbose"><a href="https://my.pgp-hms.org/"><span>Personal Genome Project</span></a></h1>
+
+    
+      <a href="https://my.pgp-hms.org/login" class="btn btn-large btn-warning pull-right" style="margin-top: -78px; margin-right: 12px; text-decoration: none; color: #fff">Log in &nbsp;<i class="icon icon-white icon-play"></i></a>
+
+<div class="container">
+  <div class="navbar"><div class="navbar-inner">
+    <ul class="nav">
+
+
+
+
+
+        <li class="dropdown">
+          <a href="/public_genetic_data" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-public-data" role="button">Public data <b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-public-data">
+            <li><a href="/users" title="4228 participant profiles">Participants</a></li>
+              <li><a href="/google_surveys" title="13 surveys taken by 2667 participants">Participant surveys</a></li>
+              <li><a href="/specimens" title="4149 blood, saliva, or other tissue samples">Tissue samples</a></li>
+            <li><a href="/public_genetic_data" title="602 whole genome sequences and 1135 other genetic datasets">Whole genome sequences and other data</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="/public_genetic_data/statistics">Genetic data publication statistics</a></li>
+          </ul>
+        </li>
+
+      <li class="dropdown">
+        <a href="http://personalgenomes.org" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-about-us" role="button">About <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-about-us">
+          <li><a href="http://personalgenomes.org"><u>PersonalGenomes.org Website</u></a></li>
+          <li><a href="http://blog.personalgenomes.org"><u>PGP Blog</u></a></li>
+          <li><a href="https://twitter.com/@PGorg"><u>@PGorg on Twitter</u></a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+    <ul class="nav pull-right">
+    </ul>
+  </div></div>
+</div>
+
+
+    <div class="clear"><!-- --></div>
+
+    
+    <div class="main">
+      <div id="flash">
+</div>
+      
+<h2>Public Profile -- hu3C86DB</h2>
+
+<div align="right">Public profile url: <a href="/profile/hu3C86DB">https://my.pgp-hms.org/profile/hu3C86DB</a></div>
+
+
+    <h3>
+      Real Name
+    </h3>
+    <strong>Jeffrey R Marquardt</strong>
+
+  <h3>
+    Personal Health Records
+  </h3>
+    <div class="admin_table">
+      <!-- Begin PHR -->
+<style type="text/css">    
+  .phr table { width: 100%; padding: 0px; margin: 2px 0px; border-collapse: collapse}
+  .phr .demographics th { width: 100px; }
+  .phr th.dosage { width: 175px; }
+  .phr th.frequency { width: 175px; }
+  .phr th.date { width: 100px; }
+  .phr td, .phr th { border: 1px solid #ccc; padding-left: 2px}
+  .phr th { background-color: #eee }
+  .phr th { text-align: left; vertical-align: top}
+  .phr td { text-align: left; vertical-align: top }
+  .phr td.hover { background-color: #C7D1E7 }    
+</style>
+
+<div class="phr"> 
+
+<h3>Demographic Information</h3> 
+<table class="demographics"> 
+  <tr><th>Date of Birth</th><td>1964-02-03 (51 years old)</td></tr> 
+  <tr><th>Gender</th><td></td></tr> 
+  <tr><th>Weight</th><td>205lbs (93kg)</td></tr> 
+  <tr><th>Height</th><td>6ft 2in (187cm)</td></tr> 
+  <tr><th>Blood Type</th><td></td></tr> 
+  <tr><th>Race</th><td></td></tr> 
+</table>
+
+<h3>Conditions</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+<tr>
+  <td>Esophageal spasms</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Premature ventricular contractions</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Gout</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>pectus excavatum</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Mitral Valve Prolapse</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>DIABETES MELLITUS</td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+
+<h3>Medications
+</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="dosage">Dosage</th>
+  <th class="frequency">Frequency</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+</table>
+
+<h3>Allergies</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="severity">Reaction/Severity</th>
+  <th class="date">Start Date</th>
+  <th class="date">End Date</th>
+</tr>
+</table>
+
+<h3>Procedures</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+<h3>Test Results</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="result">Result</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+<h3>Immunizations</h3>
+<table>
+<tr>
+  <th>Name</th>
+  <th class="date">Date</th>
+</tr>
+</table>
+
+</div>
+<p><em>Updated: 2014-11-30T10:28:23.3686207</em></p>
+<script type="text/javascript"> 
+  $(".phr tr").hover(
+  function() {
+  $("td", this).addClass("hover");
+  },
+  function() {
+  $("td", this).removeClass("hover");
+  });
+</script>
+<!-- End PHR -->
+
+    </div>
+
+  <a name="samples"></a>
+
+  <h3>Samples</h3>
+
+
+    <div class="profile-data">
+      <table>
+        <tbody>
+              <tr>
+                  <th rowspan="2" style="width: 15%">
+                    <a href="/collection_events/25">Boston, MA blood collection November 11, 2014</a>
+                  </th>
+                <td style="width: 85%">
+                  Sample
+                  99735543
+                  (whole blood)
+                    mailed
+                    2014-11-11 17:00:00 UTC
+                    by
+                    hu3C86DB.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_9162').toggle(); jQuery(this).html(jQuery('.sample_log_9162').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_9162 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 18:30:00 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample shipped to CGI</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 17:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 17:00:00 UTC</td>
+                            <td style="width: 20%">hu3C86DB</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 09:00:00 UTC</td>
+                            <td style="width: 20%">hu3C86DB</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-09-19 20:07:30 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 85%">
+                  Sample
+                  88711848
+                  (whole blood)
+                    mailed
+                    2014-11-11 17:00:00 UTC
+                    by
+                    hu3C86DB.
+                  &nbsp;
+                  <a href="#" onclick="jQuery('.sample_log_9163').toggle(); jQuery(this).html(jQuery('.sample_log_9163').is(':visible') ? 'Hide log' : 'Show log'); return false;">
+                    Show log
+                  </a>
+                  <div class="sample_log_9163 ui-helper-hidden">
+                    <table class="sample-logs">
+                      <tbody>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 18:30:00 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample shipped to Feinstein Institute</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 17:00:00 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample received by researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 17:00:00 UTC</td>
+                            <td style="width: 20%">hu3C86DB</td>
+                            <td style="width: 50%">Sample returned to researcher</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-11-11 09:00:00 UTC</td>
+                            <td style="width: 20%">hu3C86DB</td>
+                            <td style="width: 50%">Sample received by participant</td>
+                          </tr>
+                          <tr>
+                            <td style="width: 30%">2014-09-19 20:07:30 UTC</td>
+                            <td style="width: 20%">Harvard University / TeloMe, Inc.</td>
+                            <td style="width: 50%">Sample created</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+<h3>Uploaded data </h3>
+
+<div class="profile-data">
+  <table>
+    <thead>
+      <tr>
+	<th style="width:20px" class="collection-column"></th>
+	<th style="width:auto">Date</th>
+	<th style="width:auto">Data type</th>
+	<th style="width:auto">Source</th>
+	<th>Name</th>
+	<th>Download</th>
+	<th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr data-file-row data-participant-id="10322" data-locator="ff1fbf6c09cca9333446d3a2eedd66b1+69+K@ant" data-index-in-manifest="" data-file-size="11120">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2015-04-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Family Tree DNA</td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">MTDNA Full Genome</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1174" rel="nofollow">Download</a>
+	<br />(10.9 KB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="10322" data-locator="9029bd1b09d8940eea1c74d611f43abd+90+K@ant" data-index-in-manifest="" data-file-size="8207316">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2015-04-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">23andMe</td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">23andMe</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1172" rel="nofollow">Download</a>
+	<br />(7.83 MB)
+      </td>
+      <td data-summarize-as="none">
+	<a href="http://evidence.pgp-hms.org/genomes?display_genome_id=68b2be129770779acb4f61391ea43b916a3f0a01&amp;access_token=c4b1472b2470fbfa20b4f04662577e81">View&nbsp;report</a>
+
+
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="10322" data-locator="28a5add1668f67c916af4ea31fe5b4b6+74+K@ant" data-index-in-manifest="" data-file-size="1219323">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2015-04-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Genographic Project </td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">Geno 2.0</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1171" rel="nofollow">Download</a>
+	<br />(1.16 MB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="10322" data-locator="2513973d07ed4c90fab942c1db26d598+71+K@ant" data-index-in-manifest="" data-file-size="76288">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2015-04-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Family Tree DNA</td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">Walk through the Y: Coverage</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1170" rel="nofollow">Download</a>
+	<br />(74.5 KB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+    <tr data-file-row data-participant-id="10322" data-locator="070d0ea4173597224185f7297de086c2+72+K@ant" data-index-in-manifest="" data-file-size="303104">
+      <td style="width:20px" class="collection-column"></td>
+
+
+      <td style="width:auto;white-space:nowrap" data-summarize-as="list-distinct">
+	2015-04-06
+      </td>
+
+      <td style="width:auto" data-summarize-as="list-distinct">Family Tree DNA</td>
+      <td style="width:auto" data-summarize-as="file-source">Participant</td>
+
+      <td data-summarize-as="name">Walk through the Y: Alleles</td>
+      <td data-summarize-as="size">
+	<a href="/user_file/download/1169" rel="nofollow">Download</a>
+	<br />(296 KB)
+      </td>
+      <td data-summarize-as="none">
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<h3>
+  Geographic Information
+</h3>
+
+
+<table class="admin_table">
+<tr><td>State:</td><td>New York</td></tr>
+<tr><td>Zip code:</td><td>13361</td></tr>
+</table>
+
+
+<h3>Family Members Enrolled </h3>
+None added.
+
+  <h3>Surveys</h3>
+    <div class="profile-data">
+      <table>
+        <tbody>
+            <tr>
+              <th>
+                PGP Participant Survey
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:29:01.
+                <a href="#" onclick="jQuery('.survey_result_17454').toggle(); jQuery(this).html(jQuery('.survey_result_17454').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:29:01</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Year of birth</td>
+                <td class="hoverable">1964</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Sex/Gender</td>
+                <td class="hoverable">Male</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Race/ethnicity</td>
+                <td class="hoverable">White</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Maternal grandmother: Country of origin</td>
+                <td class="hoverable">United States</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Paternal grandmother: Country of origin</td>
+                <td class="hoverable">United States</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Paternal grandfather: Country of origin</td>
+                <td class="hoverable">Other / don&#x27;t know / no response</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Maternal grandfather: Country of origin</td>
+                <td class="hoverable">United States</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Month of birth</td>
+                <td class="hoverable">February</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Anatomical sex at birth</td>
+                <td class="hoverable">Male</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Maternal grandmother: Race/ethnicity</td>
+                <td class="hoverable">White</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Maternal grandfather: Race/ethnicity</td>
+                <td class="hoverable">White</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Paternal grandmother: Race/ethnicity</td>
+                <td class="hoverable">White</td>
+              </tr>
+              <tr class="survey_result_17454 ui-helper-hidden">
+                <td>Paternal grandfather: Race/ethnicity</td>
+                <td class="hoverable">White</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Cancers
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:29:45.
+                <a href="#" onclick="jQuery('.survey_result_17455').toggle(); jQuery(this).html(jQuery('.survey_result_17455').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17455 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:29:45</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Endocrine, Metabolic, Nutritional, and Immunity
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:31:35.
+                <a href="#" onclick="jQuery('.survey_result_17456').toggle(); jQuery(this).html(jQuery('.survey_result_17456').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17456 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:31:35</td>
+              </tr>
+              <tr class="survey_result_17456 ui-helper-hidden">
+                <td>Have you ever been diagnosed with any of the following conditions?</td>
+                <td class="hoverable">Diabetes mellitus, type 2, Gout</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Blood
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:32:14.
+                <a href="#" onclick="jQuery('.survey_result_17457').toggle(); jQuery(this).html(jQuery('.survey_result_17457').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17457 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:32:14</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Nervous System
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:32:44.
+                <a href="#" onclick="jQuery('.survey_result_17458').toggle(); jQuery(this).html(jQuery('.survey_result_17458').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17458 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:32:44</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Vision and hearing
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:33:18.
+                <a href="#" onclick="jQuery('.survey_result_17459').toggle(); jQuery(this).html(jQuery('.survey_result_17459').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17459 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:33:18</td>
+              </tr>
+              <tr class="survey_result_17459 ui-helper-hidden">
+                <td>Have you ever been diagnosed with one of the following conditions?</td>
+                <td class="hoverable">Myopia (Nearsightedness), Astigmatism</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Circulatory System
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:33:48.
+                <a href="#" onclick="jQuery('.survey_result_17460').toggle(); jQuery(this).html(jQuery('.survey_result_17460').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17460 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:33:48</td>
+              </tr>
+              <tr class="survey_result_17460 ui-helper-hidden">
+                <td>Have you ever been diagnosed with one of the following conditions?</td>
+                <td class="hoverable">Hypertension, Mitral valve prolapse, Premature ventricular contractions</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Respiratory System
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:34:13.
+                <a href="#" onclick="jQuery('.survey_result_17461').toggle(); jQuery(this).html(jQuery('.survey_result_17461').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17461 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:34:13</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Digestive System
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:49:24.
+                <a href="#" onclick="jQuery('.survey_result_17462').toggle(); jQuery(this).html(jQuery('.survey_result_17462').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17462 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:49:24</td>
+              </tr>
+              <tr class="survey_result_17462 ui-helper-hidden">
+                <td>Have you ever been diagnosed with any of the following conditions?</td>
+                <td class="hoverable">Dental cavities, Gingivitis</td>
+              </tr>
+              <tr class="survey_result_17462 ui-helper-hidden">
+                <td>Other condition not listed here?</td>
+                <td class="hoverable">Diffuse esophageal spasm </td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Genitourinary Systems
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:51:17.
+                <a href="#" onclick="jQuery('.survey_result_17463').toggle(); jQuery(this).html(jQuery('.survey_result_17463').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17463 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:51:17</td>
+              </tr>
+              <tr class="survey_result_17463 ui-helper-hidden">
+                <td>Other condition not listed here?</td>
+                <td class="hoverable">Cryptorchidism</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Skin and Subcutaneous Tissue
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:53:31.
+                <a href="#" onclick="jQuery('.survey_result_17464').toggle(); jQuery(this).html(jQuery('.survey_result_17464').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17464 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:53:31</td>
+              </tr>
+              <tr class="survey_result_17464 ui-helper-hidden">
+                <td>Have you ever been diagnosed with any of the following conditions?</td>
+                <td class="hoverable">Skin tags</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Musculoskeletal System and Connective Tissue
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:53:58.
+                <a href="#" onclick="jQuery('.survey_result_17465').toggle(); jQuery(this).html(jQuery('.survey_result_17465').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17465 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:53:58</td>
+              </tr>
+              <tr class="survey_result_17465 ui-helper-hidden">
+                <td>Have you ever been diagnosed with any of the following conditions?</td>
+                <td class="hoverable">Plantar fasciitis</td>
+              </tr>
+            <tr>
+              <th>
+                PGP Trait &amp; Disease Survey 2012: Congenital Traits and Anomalies
+              </th>
+              <td>
+                  Responses submitted 5/9/2014 18:54:50.
+                <a href="#" onclick="jQuery('.survey_result_17467').toggle(); jQuery(this).html(jQuery('.survey_result_17467').is(':visible') ? 'Hide responses' : 'Show responses'); return false;">
+                  Show responses
+                </a>
+              </td>
+            </tr>
+              <tr class="survey_result_17467 ui-helper-hidden">
+                <td>Timestamp</td>
+                <td class="hoverable">5/9/2014 18:54:50</td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+
+<h3>Absolute Pitch Survey
+    <a href="/absolute_pitch_surveys/review/hu3C86DB">[see all responses]</a>
+</h3>
+
+      <div>Can tell if notes are in tune: <span style="font-weight:bold">Yes</span></div>
+      <div>Can sing a melody on key: <span style="font-weight:bold">Yes</span></div>
+      <div>Can recognize musical intervals: <span style="font-weight:bold">Yes</span></div>
+      <div>Do you have absolute pitch? <span style="font-weight:bold">No</span></div>
+
+<h3>Enrollment History</h3>
+
+<table class="admin_table">
+<tr><td>Participant ID:</td><td>hu3C86DB</td></tr>
+<tr><td>Account created:</td><td>2014-05-09 02:25:17 UTC</td></tr>
+<tr><td>Eligibility screening:</td><td>2014-05-09 02:29:20 UTC (passed v2)</td></tr>
+<tr><td>Exam:</td><td>2014-05-09 03:23:24 UTC (passed v20120430)</td></tr>
+<tr><td>Consent:</td><td>2014-05-09 03:32:35 UTC (passed v20140218)</td></tr>
+<tr><td>Enrolled:</td><td>2014-05-09 03:35:12 UTC</td></tr>
+</table>
+ 
+
+
+
+
+
+    </div>
+
+    <div class="sidebar">
+      
+    </div>
+
+
+    <div class="clear"><!-- --></div>
+  </div>
+
+  <div id="foot">
+    <div id="privacy_tos">
+      <span>
+        <a href="/pages/sitemap">Site map</a>
+      </span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/privacypolicy.html">Privacy Policy</a></span>
+      &bull;
+      <span><a href="http://www.personalgenomes.org/tos.html">Terms of Use</a></span>
+    </div>
+    <div id="copyright">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" style="text-decoration:none;">
+          <img src="https://i.creativecommons.org/l/zero/1.0/88x31.png" border="0" alt="CC0" />
+        </a>
+        <br />
+        <br />
+        <font color="white">
+        To the extent possible under law, <a href="http://www.personalgenomes.org" rel="dct:publisher" style="color:white"><span property="dct:title">PersonalGenomes.org</span></a>
+        has waived all copyright and related or neighboring rights to
+        <span property="dct:title">Personal Genome Project Participant Genetic and Trait Dataset</span>.
+        This work is published from
+        <span about="www.personalgenomes.org" property="vcard:Country" datatype="dct:ISO3166" content="US">United States</span>.
+        </font>
+      </p>
+    </div>
+  </div>
+
+  <div id="jstemplates">
+    
+  </div>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-51513-4");
+pageTracker._trackPageview();
+</script>
+
+  <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = "https://analytics.freelogy.org/piwik/";
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="https://analytics.freelogy.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+    <script src="/javascripts/../bootstrap/js/bootstrap.js?1425583058" type="text/javascript"></script>
+
+</body>
+</html>
